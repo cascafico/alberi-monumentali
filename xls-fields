@@ -1,0 +1,37 @@
+Nome campo              Alias            Tipo                                                          Decodifica
+                                                   STATO (iscritto in elenco, Iscritto in elenco, Rimosso dall`elenco per abbattimento, Rimosso dall`elenco per morte
+STATO        STATO                  String; 254; 0
+                                                   naturale, Rimosso dall`elenco per perdita di requisiti)
+ID PUNTO     ID PUNTO               String; 254; 0 ID PUNTO (progressivo per comune/codice ISTAT comune/provincia/codice ISTAT regione)
+TIPOLOGIA    TIPOLOGIA              String; 254; 0 TIPOLOGIA (albero singolo, gruppo, gruppo plurispecifico, filare doppio, filare singolo, viale alberato)
+REGIONE      REGIONE                String; 254; 0 REGIONE
+PROVINCIA    PROVINCIA              String; 254; 0 PROVINCIA
+COMUNE       COMUNE                 String; 254; 0 COMUNE
+LOCALITA'    LOCALITA'              String; 254; 0 LOCALITA'
+LONGITUDINE  LONGITUDINE            Real; 20; 5    LONGITUDINE (espresse in formato geografico decimale - EPSG:4326 - WGS 84 - Geografico 4326)
+LATITUDINE   LATITUDINE             Real; 20; 5    LATITUDINE       (espresse in formato geografico decimale - EPSG:4326 - WGS 84 - Geografico 4326)
+QUOTA        QUOTA                  Real; 20; 0    QUOTA (m s.l.m.)
+GENERE       GENERE                 String; 254; 0 GENERE
+SPECIE       SPECIE                 String; 254; 0 SPECIE
+NOME VOLG    NOME VOLGARE           String; 254; 0 NOME VOLGARE
+ALTRE SPECIE ALTRE SPECIE INS. PLUR String; 254; 0 ALTRE SPECIE PRESENTI (oltre quella giÃ  indicata) NEGLI INSIEMI PLURISPECIFICI
+CONTESTO     CONTESTO               String; 254; 0 CONTESTO (urbano, extraurbano)
+CR ETA'      CR ETA'                Booleano       CRITERIO ETA'
+CR CIRCONF   CR CIRCONFERENZA       Booleano       CRITERIO CIRCONFERENZA
+CR ALTEZZA   CR ALTEZZA             Booleano       CRITERIO ALTEZZA
+CR AMPIEZZ   CR AMPIEZZA CHIOMA     Booleano       CRITERIO AMPIEZZA CHIOMA
+CR FM O PO   CR FORMA O PORTAMENTO  Booleano       CRITERIO FORMA O PORTAMENTO
+CR VALORE    CR VALORE ECOLOGICO    Booleano       CRITERIO VALORE ECOLOGICO
+CR RARITA'   CR RARITA' BOTANICA    Booleano       CRITERIO RARITA' BOTANICA
+CR ARCHIT    CR ARC VEGETALE        Booleano       CRITERIO ARCHITETTURA VEGETALE
+CR PAESAG    CR PAESAGGISTICO       Booleano       CRITERIO VALORE PAESAGGISTICO
+CR STORICO   CR STORICO             Booleano       CRITERIO VALORE STORICO
+AL IS - H    ALB IS - ALTEZZA       Real; 20; 2    ALBERO ISOLATO - ALTEZZA (in metri)
+AL IS - C    ALB IS - CIRC. 1.30 m  Real; 20; 2    ALBERO ISOLATO - CIRCONFERENZA (esperessa in cm, misurata a m 1.30 dal suolo)
+INS - Cmed   INS OM - CIRC. MEDIA   Real; 20; 2    INSIEME OMOGENEO - CIRCONFERENZA MEDIA (espressa in cm, misurata a m 1.30 dal suolo)
+INS - Hmed   INS OM - H MEDIA       Real; 20; 2    INSIEME OMOGENEO - ALTEZZA MEDIA (espressa in metri)
+INS - Cmax   INS OM - CIRC MAX      Real; 20; 2    INSIEME OMOGENEO - CIRCONFERENZA MASSIMA (espressa in cm, misurata a m 1.30 dal suolo)
+INS - Hmax   INS OM - H MAX         Real; 20; 2    INSIEME OMOGENEO - ALTEZZA MASSIMA (espressa in metri)
+DECR DI INS  DECR DI INSERIMENTO    String; 254; 0 DECRETO DI INSERIMENTO IN ELENCO
+DECR MODIF   DECR MODIFICA          String; 254; 0 EVENTUALE DECRETO DI MODIFICA
+

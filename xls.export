@@ -1,0 +1,17 @@
+    {
+      "id"  : {{(cells["PROGR"].value)}},
+      "lat" : {{(cells["lat"].value)}},
+      "lon" : {{(cells["lon"].value)}},
+      "tags" : {
+      "ref:mipaaf" : {{jsonize(cells["ID SCHEDA"].value)}},
+      "ele" : {{jsonize(cells["ALTITUDINE (m s.l.m.)"].value)}},
+      "height" : {{jsonize(cells["height"].value)}},
+      "circumference" : {{jsonize(cells["circumference"].value)}},
+      "note" : {{jsonize(cells["note"].value)}},
+      "description:it" : {{jsonize(cells["CRITERI DI MONUMENTALITÀ"].value)}},
+      "taxon" : {{jsonize(cells["SPECIE NOME SCIENTIFICO"].value)}},
+      "species:it" : {{jsonize(cells["SPECIE NOME VOLGARE"].value)}},
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }

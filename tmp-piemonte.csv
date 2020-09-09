@@ -1,0 +1,196 @@
+id,ID PUNTO,note,LATITUDINE,LONGITUDIN,QUOTA,SPECIE,NOME VOLG,natural_monument:criteria,AL IS - H,AL IS - C
+2028,005/A052/AL/01,,44.659585,8.454665,245,Acer campestre L.,Acero campestre,age,17,2.22
+2029,001/A052/AL/01,,44.673481,8.473655,159,Cedrus atlantica (Endl.) Manetti ex Carrière,Cedro dell'Atlante,age;circumference;shape,30,4.6
+2030,004/A052/AL/01,,44.695074,8.420598,365,Quercus crenata Lam.,Cerro-Sughera,age;rarity,17,3.6
+2031,002/A052/AL/01,,44.668719,8.463433,156,Populus nigra L.,Pioppo nero,age;circumference;plant_architecture,32,6.0
+2032,003/A052/AL/01,,44.659719,8.461479,279,Taxus baccata L.,Tasso,age;circumference,14,2.92
+2033,001/A182/AL/01,,44.907894,8.64007,90,Platanus acerifolia (Aiton) Willd.,Platano comune,age;circumference;crown;historic,37,7.6
+2034,001/A436/AL/01,,44.661439,8.911988,246,Quercus ilex L.,Leccio,age;circumference;rarity,19,3.5
+2035,001/A523/AL/01,,44.821059,8.977431,350,Morus alba L.,Gelso bianco,age;circumference;shape;value,8,4.1
+2036,002/A523/AL/01,,44.798263,8.986111,314,Quercus pubescens Willd.,Roverella,circumference;shape,20,4.3
+2037,001/A889/AL/01,,44.663969,8.362115,191,Quercus pubescens Willd.,Roverella,circumference;shape,16.5,3.9
+2038,001/C243/AL/01,,45.003029,8.850862,80,Populus alba L.,Pioppo bianco,circumference;historic,24,4.58
+2039,001/C962/AL/01,,45.158889,8.369722,120,Populus nigra L.,Pioppo nero,circumference,28.5,6.0
+2040,001/D797/AL/01,,44.783389,8.683739,140,Morus alba L.,Gelso bianco,age;circumference;historic,9.5,2.8
+2041,001/F232/AL/01,,45.041786,8.515667,148,Quercus pubescens Willd.,Roverella,shape,18,2.93
+2042,001/F965/AL/01,,44.738433,8.821525,273,Quercus virgiliana (Ten.) Ten.,Quercia castagnara,age;circumference;crown;shape;rarity;landscape,20,4.4
+2044,001/I150/AL/01,,44.789105,9.07618,400,Cedrus atlantica (Endl.) Manetti ex Carrière,Cedro dell'Atlante,circumference;shape,33,1.6
+2045,001/L059/AL/01,,44.729849,8.779053,254,Quercus crenata Lam.,Cerro-Sughera,age;crown;rarity;historic,18,4.0
+2046,001/L570/AL/01,,45.017913,8.619264,125,Quercus robur L.,Farnia,age;circumference,30,5.32
+2047,001/L633/AL/01,,45.119688,8.604564,94,Platanus acerifolia (Aiton) Willd.,Platano comune,circumference,41,5.05
+2048,001/L881/AL/01,,45.01038,8.396314,300,Cedrus atlantica (Endl.) Manetti ex Carrière,Cedro dell'Atlante,circumference;shape;plant_architecture,23,4.05
+2049,001/M120/AL/01,,44.884583,9.0077,303,Quercus pubescens Willd.,Roverella,age;shape,15,3.15
+2050,001/A479/AT/01,,44.899421,8.197792,130,Platanus acerifolia (Aiton) Willd.,Platano comune,circumference;plant_architecture;historic,37,5.2
+2051,001/A812/AT/01,,45.099569,7.960719,413,Quercus pubescens Willd.,Roverella,shape;landscape,17,3.2
+2052,001/B306/AT/01,,45.017911,7.940889,286,Quercus robur L.,Farnia,age;circumference;shape,22.5,4.6
+2053,002/B991/AT/01,,45.004917,8.323092,188,Morus alba L.,Gelso bianco,shape;landscape,7,2.4
+2054,001/B991/AT/01,,45.023609,8.333797,284,Aesculus hippocastanum L.,Ippocastano,age;circumference;landscape;historic,18,4.0
+2055,001/C807/AT/01,,45.085539,8.081033,336,Ulmus minor Mill.,Olmo campestre,age;circumference;landscape,23,3.6
+2056,001/D051/AT/01,,45.014893,8.088941,289,Celtis australis L.,Bagolaro,age;circumference,25,3.6
+2057,001/D554/AT/01,,44.879467,7.983149,278,Castanea sativa Mill.,Castagno,age;circumference,15,6.5
+2058,001/D678/AT/01,,44.758138,8.421677,207,Salix alba L.,Salice bianco,circumference,17,5.3
+2059,001/H468/AT/01,,44.86,8.324444,140,Fagus sylvatica L.,Faggio,rarity,25,3.15
+2060,002/H468/AT/01,,44.869076,8.324901,150,Juniperus virginiana L.,Ginepro virginiano,circumference;plant_architecture;landscape,14,2.9
+2061,001/A859/BI/01,,45.562706,8.055952,398,Cedrus atlantica (Endl.) Manetti ex Carrière,Cedro dell'Atlante,circumference;shape;plant_architecture,25.5,4.5
+2062,002/A859/BI/01,,45.562759,8.055154,410,Cedrus deodara (D.Don) G.Don,Cedro dell'Himalaya,circumference;plant_architecture,37.5,6.7
+2063,004/A859/BI/01,,45.576111,8.06,451,Quercus robur L.,Farnia,age;circumference;shape;plant_architecture,25,5.75
+2064,003/A859/BI/01,,45.563218,8.055941,400,Aesculus hippocastanum L.,Ippocastano,circumference;plant_architecture,30,3.8
+2065,001/A876/BI/01,,45.615544,8.141899,650,Castanea sativa Mill.,Castagno,age;circumference;plant_architecture,14,2.7
+2066,002/A876/BI/01,,45.615261,8.138994,634,Tilia platyphyllos Scop.,Tiglio nostrale,age;circumference;shape;plant_architecture,35,6.2
+2067,002/G798/BI/01,,45.584567,8.009131,622,Ilex aquifolium L.,Agrifoglio,age;circumference,18,2.37
+2069,001/L933/BI/01,,45.622394,8.273461,337,"Quercus petraea subsp. austrotyrrhenica Brullo, R.Guarino & Siracusa",Rovere,circumference;shape,33,4.95
+2070,001/A124/CN/01,,44.69719,8.032429,175,Fagus sylvatica L. cv. asplenifolia,Faggio a foglie di asplenio,age;circumference;crown;historic,13,2.3
+2072,001/A555/CN/01,,44.273036,8.082536,980,Acer platanoides L.,Acero riccio,shape,29,2.28
+2073,002/B111/CN/01,,44.695766,7.855241,280,Aesculus hippocastanum L.,Ippocastano,circumference,20,3.2
+2074,001/B111/CN/01,,44.712579,7.840379,310,Zelkova carpinifolia (Pall.) K. Koch,Olmo del Caucaso,circumference;crown;rarity,38,7.15
+2075,003/B111/CN/01,,44.700884,7.852056,296,Tamarix  gallica L.,Tamerice comune,circumference;rarity,5.6,2.98
+2076,003/B175/CN/01,,44.150378,7.722181,1503,Acer pseudoplatanus L.,Acero di monte,shape,22,1.35
+2077,002/B175/CN/01,,44.151069,7.738593,1560,Sorbus aucuparia L.,Sorbo degli uccellatori,age;shape,10,2.46
+2078,001/B175/CN/01,,44.14836,7.730635,1379,Sorbus aria (L.) Crantz,Sorbo montano,age;height;shape,20,1.9
+2079,001/C081/CN/01,,44.613075,7.078228,2018,Pinus cembra L.,Pino cembro,age;circumference,18,3.6
+2080,004/C376/CN/01,,44.708593,7.68581,283,Taxodium distichum (L.) Rich,Cipresso calvo,age;circumference;historic,30,4.9
+2081,002/C376/CN/01,,44.712222,7.685833,280,Quercus robur L.,Farnia,age;circumference,28,3.8
+2082,001/C376/CN/01,,44.699939,7.705328,292,Aesculus hippocastanum L.,Ippocastano,age;circumference;crown;plant_architecture,23,4.4
+2083,003/C376/CN/01,,44.711561,7.731023,290,Platanus acerifolia (Aiton) Willd.,Platano comune,age;circumference;plant_architecture,33,6.2
+2085,002/C653/CN/01,,44.203062,7.64751,1268,Abies alba Mill.,Abete bianco,age;circumference,36.5,4.33
+2086,003/C653/CN/01,,44.246317,7.674027,1112,Castanea sativa Mill.,Castagno,age;circumference;shape,18,1.6
+2087,001/C653/CN/01,,44.240676,7.66305,871,Pinus strobus L.,Pino strobo,age;circumference;height;shape;rarity;historic,38,6.05
+2088,001/D271/CN/01,,44.295469,7.285509,1164,Ulmus glabra Huds.,Olmo montano,age;circumference;plant_architecture,13,6.25
+2089,001/D314/CN/01,,44.52925,7.947852,304,Aesculus hippocastanum L.,Ippocastano,age;circumference;landscape;historic,26,4.4
+2090,001/D372/CN/01,,44.466744,7.366165,620,Aesculus hippocastanum L.,Ippocastano,circumference;crown,24,3.52
+2091,001/D401/CN/01,,44.543192,7.079064,1562,Fraxinus excelsior L.,Frassino maggiore,age;circumference;landscape;historic,16.5,3.2
+2092,001/D410/CN/01,,44.176191,7.389413,1251,Fagus sylvatica L.,Faggio,age;circumference;shape;historic,26,5.2
+2093,001/D499/CN/01,,44.502353,7.910024,250,Quercus pubescens Willd.,Roverella,age;circumference;crown,18,4.1
+2094,002/D499/CN/01,,44.509227,7.924398,344,Quercus pubescens Willd.,Roverella,age;circumference,28,4.8
+2095,001/D920/CN/01,,44.236243,7.906741,992,Abies alba Mill.,Abete bianco,age;circumference;height;historic,40,4.52
+2096,001/E597/CN/01,,44.191228,7.579833,1256,Fagus sylvatica L.,Faggio,age;circumference,30,5.65
+2097,001/F114/CN/01,,44.5625,7.297222,872,Castanea sativa Mill.,Castagno,age;circumference;height;rarity,32,9.6
+2098,001/F279/CN/01,,44.326737,7.362016,1100,Castanea sativa Mill.,Castagno,age;circumference,22.5,4.85
+2099,001/F608/CN/01,,44.39691,7.310293,583,Castanea sativa Mill.,Castagno,circumference,27,6.1
+2100,001/F654/CN/01,,44.793012,7.917475,336,Castanea sativa Mill.,Castagno,age;circumference,18.5,9.7
+2102,002/G114/CN/01,,44.135746,7.834436,1183,Betula pendula Roth,Betulla verrucosa,age;circumference,22.5,2.78
+2104,001/G114/CN/01,,44.148011,7.913183,830,Ulmus glabra Huds.,Olmo montano,circumference,26,3.7
+2105,001/G625/CN/01,,44.307945,6.999019,1939,Larix decidua Mill.,Larice,age;circumference;landscape,23,6.6
+2106,001/G683/CN/01,,44.725126,7.998067,186,Salix alba L.,Salice bianco,age;circumference,3.5,4.2
+2107,001/H150/CN/01,,44.773332,7.675082,255,Zelkova carpinifolia (Pall.) K. Koch,Olmo del Caucaso,age;circumference;height;shape;rarity,42,3.9
+2109,001/I470/CN/01,,44.644295,7.659541,319,Platanus acerifolia (Aiton) Willd.,Platano comune,age;circumference;historic,20,7.2
+2110,001/I659/CN/01,,44.560347,8.057317,750,Aesculus hippocastanum L.,Ippocastano,age;circumference,21.5,3.0
+2112,002/L558/CN/01,,44.287074,7.399471,1269,Juniperus thurifera L.,Ginepro di Spagna,age;rarity,6,0.2
+2113,003/L558/CN/01,,44.189097,7.221288,1950,Larix decidua Mill.,Larice,age;circumference,28,5.7
+2115,002/L771/CN/01,,44.194722,7.491944,1550,Fagus sylvatica L.,Faggio,age;circumference,25.5,4.95
+2116,003/L771/CN/01,,44.19988,7.521795,1387,Fraxinus excelsior L.,Frassino maggiore,age;circumference,30,4.33
+2117,001/L771/CN/01,,44.228889,7.531111,1100,Ulmus glabra Huds.,Olmo montano,age,30,3.26
+2118,001/L841/CN/01,,44.358234,7.860999,521,Sequoiadendron giganteum (Lindl.) J. Buchholz,Sequoia gigante,age;circumference,40,8.8
+2119,001/M055/CN/01,,44.218111,7.180133,2000,Larix decidua Mill.,Larice,age;circumference,22,5.63
+2120,001/A429/NO/01,,45.749162,8.548176,298,Juglans regia L.,Noce comune,shape;plant_architecture,16,2.5
+2121,001/B864/NO/01,,45.437408,8.466871,151,Ginkgo biloba L.,Ginco,age;circumference;plant_architecture;landscape,24,5.9
+2122,001/C926/NO/01,,45.711772,8.562817,267,Cedrus deodara (D.Don) G.Don,Cedro dell'Himalaya,circumference;shape,33,6.0
+2123,002/D347/NO/01,,45.737144,8.572441,209,Populus nigra L.,Pioppo nero,circumference,29,5.2
+2124,001/D347/NO/01,,45.745342,8.56754,200,Salix alba L.,Salice bianco,age;circumference,24,3.6
+2125,001/F952/NO/01,,45.438241,8.632793,161,Cedrus atlantica (Endl.) Manetti ex Carrière,Cedro dell'Atlante,circumference;shape,18.5,1.65
+2126,002/F952/NO/01,,45.415283,8.65898,150,Juglans nigra L.,Noce nero,circumference,30,4.95
+2128,001/A074/TO/01,,45.360672,7.768897,303,Platanus acerifolia (Aiton) Willd.,Platano comune,age;circumference;shape;plant_architecture;landscape,55,6.1
+2129,001/A295/TO/01,,44.862128,7.184669,1138,Fagus sylvatica L.,Faggio,shape;landscape,22,3.5
+2130,001/A591/TO/01,,45.082183,7.770678,591,Sorbus x tomentella Gand.,Sorbo ibrido,rarity,19,1.5
+2131,001/A651/TO/01,,45.07929,6.699156,1310,Pyrus communis L.,Pero domestico,age;circumference,16.5,3.1
+2132,001/A853/TO/01,,44.800825,7.286122,453,Tilia cordata Mill.,Tiglio selvatico,age;circumference;shape,28.5,4.3
+2133,002/B435/TO/01,,45.30525,7.888634,281,Osmanthus fragrans Lour.,Osmanto odoroso,age;shape,11,2.2
+2134,001/B435/TO/01,,45.307286,7.891686,314,Sequoia sempervirens (D. Don) Endl.,Sequoia sempreverde,circumference;rarity,38,5.1
+2135,002/B512/TO/01,,44.800246,7.323807,365,Calocedrus decurrens (Torr.) Florin,Libocedro,age;circumference;shape;plant_architecture,36,5.4
+2136,001/B512/TO/01,,44.800417,7.324044,365,Liriodendron tulipifera L.,Liriodendro,age;circumference;height;crown;plant_architecture;landscape,40,5.75
+2137,004/B512/TO/01,,44.802386,7.329044,355,Pterocarya fraxinifolia (Lam.) Spach,Noce del Caucaso,age;circumference;shape,30,5.75
+2139,001/B605/TO/01,,45.372924,7.605255,600,Buxus sempervirens L.,Bosso,shape,4.5,0.87
+2140,001/B867/TO/01,,45.136633,7.904111,550,Quercus crenata Lam.,Cerro-Sughera,age;rarity;historic,22,3.25
+2141,004/C045/TO/01,,45.171444,7.896869,310,Arbutus unedo L.,Corbezzolo,crown;rarity;plant_architecture,9,0.75
+2142,001/C045/TO/01,,45.175281,7.893565,265,Fagus sylvatica L.,Faggio,circumference,27,4.15
+2143,003/C045/TO/01,,45.1523,7.893833,460,Fagus sylvatica L.,Faggio,height;rarity,28,3.27
+2144,002/C045/TO/01,,45.175944,7.891968,265,Aesculus hippocastanum L.,Ippocastano,circumference;shape;plant_architecture;landscape,15,4.3
+2145,001/C241/TO/01,,45.426865,7.702893,659,Aesculus hippocastanum L.,Ippocastano,age;circumference,23,4.2
+2146,002/C564/TO/01,,44.918842,6.779028,2268,Pinus cembra L.,Pino cembro,age;shape,7,2.7
+2147,001/C564/TO/01,,44.917994,6.776344,2253,Pinus cembra L.,Pino cembro,age;shape;landscape,9,3.2
+2148,001/D202/TO/01,,44.941065,7.374685,320,Aesculus hippocastanum L.,Ippocastano,plant_architecture;landscape,21,2.7
+2149,003/D202/TO/01,,44.971957,7.368376,380,Ulmus laevis Pallas,Olmo bianco,circumference;rarity,20,3.85
+2150,001/D373/TO/01,,45.160968,7.568802,310,Prunus avium L.,Ciliegio selvatico,circumference,27,3.08
+2151,002/D373/TO/01,,45.16,7.558333,320,"Quercus petraea subsp. austrotyrrhenica Brullo, R.Guarino & Siracusa",Rovere,age;crown;shape,21,3.96
+2152,001/D532/TO/01,,45.045,7.074167,1660,Larix decidua Mill.,Larice,age;circumference,25,3.8
+2155,001/E009/TO/01,,45.142458,7.014758,765,Castanea sativa Mill.,Castagno,circumference;landscape;historic,10.5,8.1
+2156,001/E379/TO/01,,45.465278,7.878889,244,Carpinus betulus L.,Carpino bianco,circumference;shape,14,2.35
+2157,003/F067/TO/01,,45.303552,7.938329,301,Fagus sylvatica L. cv. asplenifolia,Faggio a foglie di asplenio,age,24,3.56
+2158,002/F067/TO/01,,45.303307,7.93786,300,Quercus ilex L.,Leccio,age;circumference,16.5,3.08
+2159,001/F067/TO/01,,45.305743,7.937511,307,Tilia tomentosa Moench,Tiglio argentato,age;circumference,27,3.7
+2161,001/F318/TO/01,,45.143689,7.093289,683,Juniperus oxycedrus L.,Ginepro coccolone,age;rarity,5.5,1.12
+2162,001/F335/TO/01,,45.030417,7.721467,697,Quercus pubescens Willd.,Roverella,age;crown;landscape,18,4.15
+2163,001/D553/TO/01,,45.205681,6.979445,1450,Fagus sylvatica L.,Faggio,circumference;shape,35,1.95
+2164,002/D553/TO/01,,45.205278,6.98231,1446,Fraxinus excelsior L.,Frassino maggiore,age;circumference;crown;landscape;historic,11,5.7
+2165,001/F411/TO/01,,45.338611,7.8375,352,Cedrus atlantica (Endl.) Manetti ex Carrière,Cedro dell'Atlante,age;circumference;crown;shape;plant_architecture,36,13.0
+2166,001/F420/TO/01,,45.496531,7.865425,305,Cedrus libani A.Richard,Cedro del Libano,age;circumference;shape;landscape;historic,35,6.85
+2167,002/F889/TO/01,,44.994006,7.600646,250,Quercus robur L.,Farnia,circumference,27,4.88
+2168,001/F889/TO/01,,44.993506,7.594316,250,Salix alba L.,Salice bianco,circumference,20,3.52
+2169,003/G196/TO/01,,45.036111,6.738611,1660,Larix decidua Mill.,Larice,age;circumference,22,3.85
+2171,001/G196/TO/01,,45.044903,6.825495,1300,Pinus sylvestris L.,Pino silvestre,age;shape,15,2.5
+2172,001/G462/TO/01,,45.395096,7.831065,274,Cedrus atlantica (Endl.) Manetti ex Carrière,Cedro dell'Atlante,age;circumference,33.5,3.04
+2173,001/G674/TO/01,,44.863092,7.349422,345,Taxodium distichum (L.) Rich,Cipresso calvo,age;circumference;shape;plant_architecture,34,4.75
+2174,001/G678/TO/01,,45.053711,7.775592,479,Sorbus domestica L,Sorbo domestico,rarity,24,1.33
+2175,001/G900/TO/01,,44.887394,7.268046,437,Ilex aquifolium L.,Agrifoglio,age;circumference;plant_architecture;historic,16,1.8
+2176,001/G973/TO/01,,44.969892,6.941367,2004,Pinus uncinata Ramond ex DC.,Pino uncinato,age;shape,13,2.03
+2177,002/H335/TO/01,,45.031483,7.521034,293,Taxodium distichum (L.) Rich,Cipresso calvo,age;circumference,32.5,6.1
+2178,001/H335/TO/01,,45.031658,7.521947,295,Magnolia grandiflora L.,Magnolia,age;circumference;plant_architecture,20.5,3.7
+2179,002/H338/TO/01,,45.333008,7.625226,370,Cupressus torulosa D. Don,Cipresso del Bhutan,rarity;plant_architecture,20,5.9
+2182,001/H355/TO/01,,45.065752,7.517953,359,Cedrus atlantica (Endl.) Manetti ex Carrière,Cedro dell'Atlante,age;circumference,29,6.3
+2183,001/H539/TO/01,,45.513583,7.577553,1466,Ulmus glabra Huds.,Olmo montano,age;circumference,33,4.15
+2184,001/H554/TO/01,,44.784838,7.179396,1270,Fraxinus excelsior L.,Frassino maggiore,age;circumference,23,4.8
+2185,001/I152/TO/01,,45.154542,7.929847,320,Ginkgo biloba L.,Ginco,crown;shape;landscape,11,3.2
+2187,005/I154/TO/01,,44.872873,7.30735,377,Taxodium distichum (L.) Rich,Cipresso calvo,circumference,31,4.88
+2188,002/I154/TO/01,,44.871989,7.307957,380,Ginkgo biloba L.,Ginco,age;circumference,33,4.5
+2189,003/I154/TO/01,,44.872884,7.309435,377,Liriodendron tulipifera L.,Liriodendro,circumference;height,43.5,4.93
+2190,004/I154/TO/01,,44.87219,7.30826,379,Taxus baccata L.,Tasso,age;circumference,19,4.03
+2192,002/I327/TO/01,,44.95064,7.77644,238,Platanus acerifolia (Aiton) Willd.,Platano comune,age;circumference;height;plant_architecture;historic,40,6.8
+2193,008/L219/TO/01,,45.057872,7.68789,230,Celtis australis L.,Bagolaro,age;circumference,23,4.75
+2194,007/L219/TO/01,,45.052976,7.686317,220,Quercus robur L.,Farnia,age;plant_architecture,28,4.0
+2196,004/L219/TO/01,,45.063289,7.690289,230,Ginkgo biloba L.,Ginco,circumference;plant_architecture;landscape,27,3.7
+2197,002/L219/TO/01,,45.063681,7.679497,230,Pterocarya fraxinifolia (Lam.) Spach,Noce del Caucaso,circumference,27,6.05
+2198,005/L219/TO/01,,45.072599,7.689158,230,Zelkova carpinifolia (Pall.) K. Koch,Olmo del Caucaso,circumference;rarity,24,3.5
+2199,011/L219/TO/01,,45.051173,7.686349,210,Platanus acerifolia (Aiton) Willd.,Platano comune,circumference;crown,26,6.0
+2200,009/L219/TO/01,,45.075789,7.704094,220,Platanus acerifolia (Aiton) Willd.,Platano comune,circumference,27,4.94
+2201,001/L219/TO/01,,45.075877,7.63816,250,Platanus acerifolia (Aiton) Willd.,Platano comune,age;circumference,28,6.65
+2202,012/L219/TO/01,,45.048146,7.684063,220,Platanus acerifolia (Aiton) Willd.,Platano comune,crown,36,5.1
+2203,006/L219/TO/01,,45.064267,7.719565,290,Platanus acerifolia (Aiton) Willd.,Platano comune,age;circumference;plant_architecture,13.5,6.4
+2204,003/L219/TO/01,,45.063231,7.689485,235,Platanus acerifolia (Aiton) Willd.,Platano comune,circumference;plant_architecture;landscape,33.5,5.5
+2205,010/L219/TO/01,,45.046507,7.683475,220,Platanus acerifolia (Aiton) Willd.,Platano comune,circumference;crown,39.5,5.5
+2206,001/L277/TO/01,,44.821714,7.226789,519,Cedrus libani A.Richard,Cedro del Libano,age;circumference;shape;landscape,25,5.45
+2207,002/L277/TO/01,,44.822161,7.213628,545,Sequoiadendron giganteum (Lindl.) J. Buchholz,Sequoia gigante,age;circumference;shape;landscape,37,9.4
+2208,001/L445/TO/01,,44.991129,7.753148,265,Quercus robur L.,Farnia,circumference,30,4.3
+2209,002/B510/TO/01,,45.522325,7.545214,1293,Picea abies (L.) H. Karst.,Abete rosso,age;height,40,3.35
+2210,001/B510/TO/01,,45.521936,7.541081,1464,Fraxinus excelsior L.,Frassino maggiore,age;shape,16.5,2.6
+2212,001/L787/TO/01,,45.137025,8.093447,344,Quercus crenata Lam.,Cerro-Sughera,age;circumference;height;rarity,26,3.82
+2213,001/M007/TO/01,,45.099728,7.231675,721,Castanea sativa Mill.,Castagno,age;circumference,14,7.0
+2214,002/M007/TO/01,,45.092867,7.204939,1239,Pyrus communis L.,Pero domestico,age;circumference,18.5,3.55
+2215,001/D134/VB/01,,46.140213,8.491679,884,Fagus sylvatica L. var. `purpurea`,Faggio rosso,circumference,35.5,4.25
+2216,001/D168/VB/01,,46.146132,8.296005,296,Sciadopitys verticillata (Thunb.) Siebold & Zucc.,Koyamaki,circumference;rarity,21,2.5
+2217,001/D177/VB/01,,46.204002,8.29872,1340,Picea abies (L.) H. Karst.,Abete rosso,circumference;shape,24,4.1
+2218,002/D177/VB/01,,46.230573,8.338295,700,Castanea sativa Mill.,Castagno,age;circumference;historic,17.5,8.7
+2219,001/E790/VB/01,,45.97069,7.964248,1317,Tilia platyphyllos Scop.,Tiglio nostrale,age;circumference;shape;landscape;historic,15,8.3
+2220,001/E795/VB/01,,45.781139,8.356053,889,Acer pseudoplatanus L.,Acero di monte,circumference;shape,31,3.42
+2221,001/F146/VB/01,,45.960375,8.448931,196,Ulmus minor Mill.,Olmo campestre,age;circumference;rarity;landscape;historic,13,5.5
+2222,001/G117/VB/01,,45.983641,8.403236,209,Fraxinus excelsior L.,Frassino maggiore,circumference,28.5,3.8
+2223,001/G600/VB/01,,46.021865,8.248154,475,Aesculus hippocastanum L.,Ippocastano,age;circumference;shape;landscape,25,4.75
+2224,002/H037/VB/01,,46.022567,8.353931,1038,"Quercus petraea subsp. austrotyrrhenica Brullo, R.Guarino & Siracusa",Rovere,age;circumference;shape;landscape,28,4.83
+2225,001/H037/VB/01,,45.995037,8.363515,247,Taxus baccata L.,Tasso,circumference,8.5,3.62
+2226,002/I976/VB/01,,45.895475,8.527222,203,Cinnamomum camphora T.Nees et Eberm,Albero della canfora,age;circumference;shape;plant_architecture,30,7.2
+2227,001/I976/VB/01,,45.884736,8.538732,270,Cedrus deodara (D.Don) G.Don,Cedro dell'Himalaya,age;circumference;landscape;historic,35,8.0
+2228,003/I976/VB/01,,45.912497,8.538497,194,Taxodium distichum (L.) Rich,Cipresso calvo,age;circumference;shape;plant_architecture,25,4.7
+2229,004/I976/VB/01,,45.911122,8.537803,212,Cupressus cashmeriana Royle ex Carrière,Cipresso del Cashmere,age;circumference;shape;plant_architecture;landscape,25,4.5
+2230,006/I976/VB/01,,45.910952,8.538894,200,Magnolia grandiflora L.,Magnolia,age;circumference;shape;plant_architecture,22,4.35
+2231,005/I976/VB/01,,45.911191,8.53898,201,Quercus suber L.,Sughera,age;rarity;plant_architecture,18,3.5
+2232,001/L336/VB/01,,46.216508,8.21745,1273,Fagus sylvatica L.,Faggio,circumference;shape,33,1.6
+2233,002/L691/VB/01,,46.281242,8.164067,1924,Larix decidua Mill.,Larice,age;circumference,25,4.6
+2235,002/L746/VB/01,,45.924904,8.559921,222,Davidia involucrata Baill.,Albero dei fazzoletti,circumference;shape;plant_architecture,15,3.2
+2236,001/L746/VB/01,,45.944722,8.516389,405,Taxus baccata L.,Tasso,age;circumference;shape;plant_architecture;landscape,14,3.7
+2238,001/B505/VC/01,,45.79605,7.988536,1375,Picea abies (L.) H. Karst.,Abete rosso,circumference;height,37,4.1
+2239,002/B752/VC/01,,45.910728,8.049314,1340,Fraxinus excelsior L.,Frassino maggiore,age;circumference,21,5.4
+2240,001/B752/VC/01,,45.914083,8.049194,1562,Larix decidua Mill.,Larice,age;circumference,37.5,4.6
+2241,001/D154/VC/01,,45.19293,8.122368,150,Tilia × europaea L. syn Tilia x vulgaris B. Heyne syn Tilia intermedia DC,Tiglio comune,shape,24,3.45
+2242,001/E711/VC/01,,45.619378,8.3252,296,Prunus avium L.,Ciliegio selvatico,circumference;shape,12,3.05
+2243,001/G266/VC/01,,45.173115,8.219993,134,Populus x euramericana (Dode) Guiner,Pioppo ibrido,circumference,39,4.1
+2244,001/H291/VC/01,,45.884405,8.000348,1713,Larix decidua Mill.,Larice,age;circumference;height;landscape;historic,45,5.5
+2245,001/L429/VC/01,,45.221106,8.253622,187,Quercus robur L.,Farnia,shape,28,3.15

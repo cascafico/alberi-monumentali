@@ -1,0 +1,811 @@
+[
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "Name",
+      "STATO",
+      "TIPOLOGIA",
+      "REGIONE",
+      "PROVINCIA",
+      "COMUNE",
+      "LOCALITA_",
+      "LATITUDINE",
+      "LONGITUDIN",
+      "unnamed__1_",
+      "GENERE",
+      "SPECIE",
+      "NOME_VOLG",
+      "ALTRE_SPECIE",
+      "CONTESTO",
+      "CR_ETA_",
+      "CR_CIRCONF",
+      "CR_ALTEZZA",
+      "CR_AMPIEZZ",
+      "CR_FM_O_PO",
+      "CR_VALORE",
+      "CR_RARITA_",
+      "CR_ARCHIT",
+      "CR_PAESAG",
+      "CR_STORICO",
+      "AL_IS___H",
+      "AL_IS___C",
+      "INS___Cmed",
+      "INS___Hmed",
+      "INS___Cmax",
+      "INS___Hmax",
+      "DECR_DI_IN",
+      "DECR_MODIF"
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column STATO",
+    "columnName": "STATO"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column unnamed__1_ by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "unnamed__1_",
+    "guessCellType": false,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column unnamed__1_ 2",
+    "columnName": "unnamed__1_ 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column unnamed__1_",
+    "columnName": "unnamed__1_"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column unnamed__1_ 1 to ele",
+    "oldColumnName": "unnamed__1_ 1",
+    "newColumnName": "ele"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column LATITUDINE to lat",
+    "oldColumnName": "LATITUDINE",
+    "newColumnName": "lat"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column LONGITUDIN to lon",
+    "oldColumnName": "LONGITUDIN",
+    "newColumnName": "lon"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOME_VOLG to species:it",
+    "oldColumnName": "NOME_VOLG",
+    "newColumnName": "species:it"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column SPECIE to taxon",
+    "oldColumnName": "SPECIE",
+    "newColumnName": "taxon"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column GENERE to genus",
+    "oldColumnName": "GENERE",
+    "newColumnName": "genus"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CR_STORICO using expression value.toLowercase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CR_STORICO",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CR_STORICO to historic",
+    "oldColumnName": "CR_STORICO",
+    "newColumnName": "historic"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column historic",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "historic",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "si"
+        ],
+        "to": "yes"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column historic",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "historic",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "no"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AL_IS___H using expression grel:replace(value, \",\", \".\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AL_IS___H",
+    "expression": "grel:replace(value, \",\", \".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AL_IS___H using expression grel:replace(value, \" m\", \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AL_IS___H",
+    "expression": "grel:replace(value, \" m\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column AL_IS___C to circumference",
+    "oldColumnName": "AL_IS___C",
+    "newColumnName": "circumference"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column circumference using expression grel:replace(value, \" cm\", \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "circumference",
+    "expression": "grel:replace(value, \" cm\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CR_PAESAG",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CR_PAESAG",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NO"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CR_PAESAG",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CR_PAESAG",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SI"
+        ],
+        "to": "yes"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CR_PAESAG to landmark",
+    "oldColumnName": "CR_PAESAG",
+    "newColumnName": "landmark"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CR_ETA_ to denotation:age",
+    "oldColumnName": "CR_ETA_",
+    "newColumnName": "denotation:age"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CR_CIRCONF to denotation:circumference",
+    "oldColumnName": "CR_CIRCONF",
+    "newColumnName": "denotation:circumference"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CR_ALTEZZA to denotation:height",
+    "oldColumnName": "CR_ALTEZZA",
+    "newColumnName": "denotation:height"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CR_AMPIEZZ to denotation:crown",
+    "oldColumnName": "CR_AMPIEZZ",
+    "newColumnName": "denotation:crown"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CR_RARITA_ to denotation:rarity",
+    "oldColumnName": "CR_RARITA_",
+    "newColumnName": "denotation:rarity"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column INS___Cmed using expression grel:replace(value, \" cm\", \"\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "INS___Cmed",
+          "columnName": "INS___Cmed",
+          "query": " cm",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "INS___Cmed",
+    "expression": "grel:replace(value, \" cm\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column INS___Hmed using expression grel:replace(value, \" m\", \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "INS___Hmed",
+    "expression": "grel:replace(value, \" m\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column INS___Hmed using expression grel:replace(value, \",\", \".\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "INS___Hmed",
+    "expression": "grel:replace(value, \",\", \".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column INS___Cmed to circumference:average",
+    "oldColumnName": "INS___Cmed",
+    "newColumnName": "circumference:average"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column INS___Hmed to height:average",
+    "oldColumnName": "INS___Hmed",
+    "newColumnName": "height:average"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column AL_IS___H to height",
+    "oldColumnName": "AL_IS___H",
+    "newColumnName": "height"
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "height",
+          "expression": "isBlank(value).toString()",
+          "columnName": "height",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column height using expression grel:cells[\"height:average\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred.toString()",
+          "columnName": "",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "height",
+    "expression": "grel:cells[\"height:average\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column circumference using expression grel:cells[\"circumference:average\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred.toString()",
+          "columnName": "",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "circumference",
+    "expression": "grel:cells[\"circumference:average\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column height using expression grel:replace(value, \" cm\", \"\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "height",
+          "columnName": "height",
+          "query": "cm",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "height",
+    "expression": "grel:replace(value, \" cm\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:age",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:age",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NO"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:age",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:age",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SI"
+        ],
+        "to": "yes"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:circumference",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:circumference",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SI"
+        ],
+        "to": "yes"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:circumference",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:circumference",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NO"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:height",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:height",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NO"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:height",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:height",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SI"
+        ],
+        "to": "yes"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:crown",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:crown",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NO"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:crown",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:crown",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SI"
+        ],
+        "to": "yes"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:rarity",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:rarity",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NO"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column denotation:rarity",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "denotation:rarity",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SI"
+        ],
+        "to": "yes"
+      }
+    ]
+  },
+  {
+    "op": "core/row-star",
+    "description": "Unstar rows",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DECR_DI_IN",
+    "columnName": "DECR_DI_IN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DECR_MODIF",
+    "columnName": "DECR_MODIF"
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOLOGIA",
+          "expression": "value",
+          "columnName": "TIPOLOGIA",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "albero singolo",
+                "l": "albero singolo"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Name to ref",
+    "oldColumnName": "Name",
+    "newColumnName": "ref"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column id at index 1 based on column ref using expression grel:rowIndex",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOLOGIA",
+          "expression": "value",
+          "columnName": "TIPOLOGIA",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "albero singolo",
+                "l": "albero singolo"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "id",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref",
+    "expression": "grel:rowIndex",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "id",
+      "ref",
+      "lat",
+      "lon",
+      "ele",
+      "height",
+      "circumference",
+      "genus",
+      "taxon",
+      "species:it",
+      "denotation:age",
+      "denotation:circumference",
+      "denotation:height",
+      "denotation:crown",
+      "denotation:rarity",
+      "landmark",
+      "historic",
+      "TIPOLOGIA",
+      "REGIONE",
+      "PROVINCIA",
+      "COMUNE",
+      "LOCALITA_",
+      "ALTRE_SPECIE",
+      "CONTESTO",
+      "CR_FM_O_PO",
+      "CR_VALORE",
+      "CR_ARCHIT",
+      "circumference:average",
+      "height:average",
+      "INS___Cmax",
+      "INS___Hmax"
+    ]
+  }
+]

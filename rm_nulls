@@ -1,0 +1,3 @@
+#!/bin/bash
+sed -i -e '/: null,/d' $1      
+sed -i -e '/: "",/d' $1      

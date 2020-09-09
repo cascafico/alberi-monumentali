@@ -1,0 +1,3748 @@
+[
+    {
+      "id"  : 0,
+      "lat" : 44.673481,
+      "lon" : 8.473656,
+      "tags" : {
+      "ref:mipaaf" : "01/A052/AL/01",
+      "ele" : "159",
+      "height" : 30,
+      "circumference" : 4.6,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Cedrus atlantica (Endl.) Manetti ex Carrière",
+      "species:it" : "Cedro dell'Atlante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 1,
+      "lat" : 44.668719,
+      "lon" : 8.463433,
+      "tags" : {
+      "ref:mipaaf" : "02/A052/AL/01",
+      "ele" : "156",
+      "height" : 32,
+      "circumference" : 6,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Populus nigra L.",
+      "species:it" : "Pioppo nero",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 2,
+      "lat" : 44.659719,
+      "lon" : 8.461478,
+      "tags" : {
+      "ref:mipaaf" : "03/A052/AL/01",
+      "ele" : "279",
+      "height" : 14,
+      "circumference" : 2.92,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Taxus baccata L.",
+      "species:it" : "Tasso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 3,
+      "lat" : 44.695072,
+      "lon" : 8.420597,
+      "tags" : {
+      "ref:mipaaf" : "04/A052/AL/01",
+      "ele" : "365",
+      "height" : 17,
+      "circumference" : 3.6,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Quercus crenata Lam.",
+      "species:it" : "Cerro-sughera",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 4,
+      "lat" : 44.659586,
+      "lon" : 8.454664,
+      "tags" : {
+      "ref:mipaaf" : "05/A052/AL/01",
+      "ele" : "245",
+      "height" : 17,
+      "circumference" : 2.22,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Acer campestre L.",
+      "species:it" : "Acero campestre",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 5,
+      "lat" : 44.907894,
+      "lon" : 8.640069,
+      "tags" : {
+      "ref:mipaaf" : "01/A182/AL/01",
+      "ele" : "90",
+      "height" : 37,
+      "circumference" : 7.6,
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 6,
+      "lat" : 44.661439,
+      "lon" : 8.911989,
+      "tags" : {
+      "ref:mipaaf" : "01/A436/AL/01",
+      "ele" : "246",
+      "height" : 19,
+      "circumference" : 3.5,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Quercus ilex L.",
+      "species:it" : "Leccio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 7,
+      "lat" : 44.821058,
+      "lon" : 8.977431,
+      "tags" : {
+      "ref:mipaaf" : "01/A523/AL/01",
+      "ele" : "350",
+      "height" : 8,
+      "circumference" : 4.1,
+      "description:it" : "età e/o dimensioni, forma e portamento, valore ecologico",
+      "taxon" : "Morus alba L.",
+      "species:it" : "Gelso bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 8,
+      "lat" : 44.798264,
+      "lon" : 8.986111,
+      "tags" : {
+      "ref:mipaaf" : "02/A523/AL/01",
+      "ele" : "314",
+      "height" : 20,
+      "circumference" : 4.3,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Quercus pubescens Willd.",
+      "species:it" : "Roverella",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 9,
+      "lat" : 44.663969,
+      "lon" : 8.362114,
+      "tags" : {
+      "ref:mipaaf" : "01/A889/AL/01",
+      "ele" : "191",
+      "height" : 16.5,
+      "circumference" : 3.9,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Quercus pubescens Willd.",
+      "species:it" : "Roverella",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 10,
+      "lat" : 45.003031,
+      "lon" : 8.850861,
+      "tags" : {
+      "ref:mipaaf" : "01/C243/AL/01",
+      "ele" : "80",
+      "height" : 24,
+      "circumference" : 4.58,
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Populus alba L.",
+      "species:it" : "Pioppo bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 11,
+      "lat" : 45.158889,
+      "lon" : 8.369722,
+      "tags" : {
+      "ref:mipaaf" : "01/C962/AL/01",
+      "ele" : "120",
+      "height" : 28.5,
+      "circumference" : 6,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Populus nigra L.",
+      "species:it" : "Pioppo nero",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 12,
+      "lat" : 44.783389,
+      "lon" : 8.683739,
+      "tags" : {
+      "ref:mipaaf" : "01/D797/AL/01",
+      "ele" : "140",
+      "height" : 9.5,
+      "circumference" : 2.8,
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Morus alba L.",
+      "species:it" : "Gelso bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 13,
+      "lat" : 45.041786,
+      "lon" : 8.515667,
+      "tags" : {
+      "ref:mipaaf" : "01/F232/AL/01",
+      "ele" : "148",
+      "height" : 18,
+      "circumference" : 2.93,
+      "description:it" : ", forma e portamento",
+      "taxon" : "Quercus pubescens Willd.",
+      "species:it" : "Roverella",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 14,
+      "lat" : 44.738433,
+      "lon" : 8.821525,
+      "tags" : {
+      "ref:mipaaf" : "01/F965/AL/01",
+      "ele" : "273",
+      "height" : 20,
+      "circumference" : 4.4,
+      "description:it" : "età e/o dimensioni, forma e portamento, rarità botanica, pregio paesaggistico",
+      "taxon" : "Quercus virgiliana (Ten.) Ten.",
+      "species:it" : "Quercia castagnara",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 15,
+      "lat" : 45.063772,
+      "lon" : 8.597067,
+      "tags" : {
+      "ref:mipaaf" : "01/G807/AL/01",
+      "ele" : "120",
+      "height" : 27.5,
+      "circumference" : 4.9,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Insieme omogeneo di Celtis australis L.",
+      "species:it" : "Bagolaro",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 16,
+      "lat" : 44.789106,
+      "lon" : 9.076181,
+      "tags" : {
+      "ref:mipaaf" : "01/I150/AL/01",
+      "ele" : "400",
+      "height" : 33,
+      "circumference" : 1.6,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Cedrus atlantica (Endl.) Manetti ex Carrière",
+      "species:it" : "Cedro dell'Atlante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 17,
+      "lat" : 44.72985,
+      "lon" : 8.779053,
+      "tags" : {
+      "ref:mipaaf" : "01/L059/AL/01",
+      "ele" : "254",
+      "height" : 18,
+      "circumference" : 4,
+      "description:it" : "età e/o dimensioni, rarità botanica, valore storico, culturale, religioso",
+      "taxon" : "Quercus crenata Lam.",
+      "species:it" : "Cerro-sughera",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 18,
+      "lat" : 45.017914,
+      "lon" : 8.619264,
+      "tags" : {
+      "ref:mipaaf" : "01/L570/AL/01",
+      "ele" : "125",
+      "height" : 30,
+      "circumference" : 5.32,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 19,
+      "lat" : 45.119689,
+      "lon" : 8.604564,
+      "tags" : {
+      "ref:mipaaf" : "01/L633/AL/01",
+      "ele" : "94",
+      "height" : 41,
+      "circumference" : 5.05,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 20,
+      "lat" : 45.010381,
+      "lon" : 8.396314,
+      "tags" : {
+      "ref:mipaaf" : "01/L881/AL/01",
+      "ele" : "300",
+      "height" : 23,
+      "circumference" : 4.05,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Cedrus atlantica (Endl.) Manetti ex Carrière",
+      "species:it" : "Cedro dell'Atlante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 21,
+      "lat" : 44.884583,
+      "lon" : 9.0077,
+      "tags" : {
+      "ref:mipaaf" : "01/M120/AL/01",
+      "ele" : "303",
+      "height" : 15,
+      "circumference" : 3.2,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Quercus pubescens Willd.",
+      "species:it" : "Roverella",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 22,
+      "lat" : 44.899422,
+      "lon" : 8.197792,
+      "tags" : {
+      "ref:mipaaf" : "01/A479/AT/01",
+      "ele" : "130",
+      "height" : 20,
+      "circumference" : 5.2,
+      "description:it" : "età e/o dimensioni, architettura vegetale, valore storico, culturale, religioso",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 23,
+      "lat" : 45.099569,
+      "lon" : 7.960719,
+      "tags" : {
+      "ref:mipaaf" : "01/A812/AT/01",
+      "ele" : "413",
+      "height" : 17,
+      "circumference" : 3.2,
+      "description:it" : ", forma e portamento, pregio paesaggistico",
+      "taxon" : "Quercus pubescens Willd.",
+      "species:it" : "Roverella",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 24,
+      "lat" : 45.017911,
+      "lon" : 7.940889,
+      "tags" : {
+      "ref:mipaaf" : "01/B306/AT/01",
+      "ele" : "286",
+      "height" : 24,
+      "circumference" : 4.6,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 25,
+      "lat" : 45.023608,
+      "lon" : 8.333797,
+      "tags" : {
+      "ref:mipaaf" : "01/B991/AT/01",
+      "ele" : "284",
+      "height" : 18,
+      "circumference" : 4,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 26,
+      "lat" : 45.004917,
+      "lon" : 8.323092,
+      "tags" : {
+      "ref:mipaaf" : "02/B991/AT/01",
+      "ele" : "188",
+      "height" : 7,
+      "circumference" : 2.4,
+      "description:it" : ", forma e portamento, pregio paesaggistico",
+      "taxon" : "Morus alba L.",
+      "species:it" : "Gelso bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 27,
+      "lat" : 45.085539,
+      "lon" : 8.081033,
+      "tags" : {
+      "ref:mipaaf" : "01/C807/AT/01",
+      "ele" : "336",
+      "height" : 23,
+      "circumference" : 3.6,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico",
+      "taxon" : "Ulmus minor Mill.",
+      "species:it" : "Olmo campestre",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 28,
+      "lat" : 45.014894,
+      "lon" : 8.088942,
+      "tags" : {
+      "ref:mipaaf" : "01/D051/AT/01",
+      "ele" : "289",
+      "height" : 23,
+      "circumference" : 3.6,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Celtis australis L.",
+      "species:it" : "Bagolaro",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 29,
+      "lat" : 44.879467,
+      "lon" : 7.98315,
+      "tags" : {
+      "ref:mipaaf" : "01/D554/AT/01",
+      "ele" : "278",
+      "height" : 15,
+      "circumference" : 6.5,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 30,
+      "lat" : 44.758139,
+      "lon" : 8.421678,
+      "tags" : {
+      "ref:mipaaf" : "01/D678/AT/01",
+      "ele" : "207",
+      "height" : 15,
+      "circumference" : 5.3,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Salix alba L.",
+      "species:it" : "Salice bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 31,
+      "lat" : 44.86,
+      "lon" : 8.324444,
+      "tags" : {
+      "ref:mipaaf" : "01/H468/AT/01",
+      "ele" : "140",
+      "height" : 25,
+      "circumference" : 3.15,
+      "description:it" : ", rarità botanica",
+      "taxon" : "Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 32,
+      "lat" : 44.869075,
+      "lon" : 8.3249,
+      "tags" : {
+      "ref:mipaaf" : "02/H468/AT/01",
+      "ele" : "150",
+      "height" : 14,
+      "circumference" : 2.9,
+      "description:it" : "età e/o dimensioni, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Juniperus virginiana L.",
+      "species:it" : "Ginepro virginiano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 33,
+      "lat" : 45.562706,
+      "lon" : 8.055953,
+      "tags" : {
+      "ref:mipaaf" : "01/A859/BI/01",
+      "ele" : "398",
+      "height" : 25.5,
+      "circumference" : 4.5,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Cedrus atlantica (Endl.) Manetti ex Carrière",
+      "species:it" : "Cedro dell'Atlante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 34,
+      "lat" : 45.562758,
+      "lon" : 8.055153,
+      "tags" : {
+      "ref:mipaaf" : "02/A859/BI/01",
+      "ele" : "410",
+      "height" : 37.5,
+      "circumference" : 6.7,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Cedrus deodara (D.Don) G.Don",
+      "species:it" : "Cedro dell'Himalaya",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 35,
+      "lat" : 45.563219,
+      "lon" : 8.055942,
+      "tags" : {
+      "ref:mipaaf" : "03/A859/BI/01",
+      "ele" : "400",
+      "height" : 36,
+      "circumference" : 3.8,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 36,
+      "lat" : 45.576111,
+      "lon" : 8.06,
+      "tags" : {
+      "ref:mipaaf" : "04/A859/BI/01",
+      "ele" : "451",
+      "height" : 27,
+      "circumference" : 5.75,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 37,
+      "lat" : 45.615544,
+      "lon" : 8.1419,
+      "tags" : {
+      "ref:mipaaf" : "01/A876/BI/01",
+      "ele" : "650",
+      "height" : 14,
+      "circumference" : 11.5,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 38,
+      "lat" : 45.615261,
+      "lon" : 8.138994,
+      "tags" : {
+      "ref:mipaaf" : "02/A876/BI/01",
+      "ele" : "634",
+      "height" : 34,
+      "circumference" : 6.2,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Tilia platyphyllos Scop.",
+      "species:it" : "Tiglio nostrale",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 39,
+      "lat" : 45.584294,
+      "lon" : 8.009236,
+      "tags" : {
+      "ref:mipaaf" : "01/G798/BI/01",
+      "ele" : "601",
+      "height" : 40,
+      "circumference" : 5.15,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Insieme omogeneo di Sequoia sempervirens (D. Don) Endl.",
+      "species:it" : "Sequoia sempreverde",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 40,
+      "lat" : 45.584567,
+      "lon" : 8.009131,
+      "tags" : {
+      "ref:mipaaf" : "02/G798/BI/01",
+      "ele" : "622",
+      "height" : 17,
+      "circumference" : 2.37,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Ilex aquifolium L.",
+      "species:it" : "Agrifoglio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 41,
+      "lat" : 45.622394,
+      "lon" : 8.273461,
+      "tags" : {
+      "ref:mipaaf" : "01/L933/BI/01",
+      "ele" : "337",
+      "height" : 33,
+      "circumference" : 4.95,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Quercus petraea subsp. austrotyrrhenica Brullo, R.Guarino & Siracusa",
+      "species:it" : "Rovere",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 42,
+      "lat" : 44.697189,
+      "lon" : 8.032431,
+      "tags" : {
+      "ref:mipaaf" : "01/A124/CN/01",
+      "ele" : "175",
+      "height" : 13,
+      "circumference" : 1.35,
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Fagus sylvatica L. cv. asplenifolia",
+      "species:it" : "Faggio a foglie di asplenio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 43,
+      "lat" : 44.683469,
+      "lon" : 8.006819,
+      "tags" : {
+      "ref:mipaaf" : "02/A124/CN/01",
+      "ele" : "172",
+      "height" : 6,
+      "circumference" : 3,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Insieme omogeneo di Morus alba L.",
+      "species:it" : "Gelso bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 44,
+      "lat" : 44.273036,
+      "lon" : 8.082536,
+      "tags" : {
+      "ref:mipaaf" : "01/A555/CN/01",
+      "ele" : "980",
+      "height" : 29,
+      "circumference" : 2.28,
+      "description:it" : ", forma e portamento",
+      "taxon" : "Acer platanoides L.",
+      "species:it" : "Acero riccio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 45,
+      "lat" : 44.712581,
+      "lon" : 7.840378,
+      "tags" : {
+      "ref:mipaaf" : "01/B111/CN/01",
+      "ele" : "310",
+      "height" : 38,
+      "circumference" : 7.15,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Zelkova carpinifolia (Pall.) K. Koch",
+      "species:it" : "Olmo del Caucaso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 46,
+      "lat" : 44.695767,
+      "lon" : 7.855242,
+      "tags" : {
+      "ref:mipaaf" : "02/B111/CN/01",
+      "ele" : "280",
+      "height" : 20,
+      "circumference" : 3.2,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 47,
+      "lat" : 44.700883,
+      "lon" : 7.852056,
+      "tags" : {
+      "ref:mipaaf" : "03/B111/CN/01",
+      "ele" : "296",
+      "height" : 5.5,
+      "circumference" : 2.98,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Tamarix  gallica L.",
+      "species:it" : "Tamerice comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 48,
+      "lat" : 44.148358,
+      "lon" : 7.730636,
+      "tags" : {
+      "ref:mipaaf" : "01/B175/CN/01",
+      "ele" : "1379",
+      "height" : 20,
+      "circumference" : 1.9,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Sorbus aria (L.) Crantz",
+      "species:it" : "Sorbo montano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 49,
+      "lat" : 44.151069,
+      "lon" : 7.738594,
+      "tags" : {
+      "ref:mipaaf" : "02/B175/CN/01",
+      "ele" : "1560",
+      "height" : 10,
+      "circumference" : 2.46,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Sorbus aucuparia L.",
+      "species:it" : "Sorbo degli uccellatori",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 50,
+      "lat" : 44.150378,
+      "lon" : 7.722181,
+      "tags" : {
+      "ref:mipaaf" : "03/B175/CN/01",
+      "ele" : "1503",
+      "height" : 22,
+      "circumference" : 2.53,
+      "description:it" : ", forma e portamento",
+      "taxon" : "Acer pseudoplatanus L.",
+      "species:it" : "Acero di monte",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 51,
+      "lat" : 44.613075,
+      "lon" : 7.078228,
+      "tags" : {
+      "ref:mipaaf" : "01/C081/CN/01",
+      "ele" : "2018",
+      "height" : 18,
+      "circumference" : 3.6,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Pinus cembra L.",
+      "species:it" : "Pino cembro",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 52,
+      "lat" : 44.699939,
+      "lon" : 7.705328,
+      "tags" : {
+      "ref:mipaaf" : "01/C376/CN/01",
+      "ele" : "292",
+      "height" : 20,
+      "circumference" : 4.4,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 53,
+      "lat" : 44.712222,
+      "lon" : 7.685833,
+      "tags" : {
+      "ref:mipaaf" : "02/C376/CN/01",
+      "ele" : "280",
+      "height" : 28,
+      "circumference" : 3.8,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 54,
+      "lat" : 44.711561,
+      "lon" : 7.731022,
+      "tags" : {
+      "ref:mipaaf" : "03/C376/CN/01",
+      "ele" : "290",
+      "height" : 33,
+      "circumference" : 6.2,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 55,
+      "lat" : 44.708594,
+      "lon" : 7.685811,
+      "tags" : {
+      "ref:mipaaf" : "04/C376/CN/01",
+      "ele" : "283",
+      "height" : 30,
+      "circumference" : 4.9,
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Taxodium distichum (L.) Rich",
+      "species:it" : "Cipresso calvo",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 56,
+      "lat" : 44.648511,
+      "lon" : 7.861111,
+      "tags" : {
+      "ref:mipaaf" : "01/C599/CN/01",
+      "ele" : "288",
+      "height" : 9,
+      "circumference" : 4.4,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, architettura vegetale, valore storico, culturale, religioso",
+      "taxon" : "Insieme omogeneo di Platanus occidentalis L.",
+      "species:it" : "Platano occidentale",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 57,
+      "lat" : 44.240675,
+      "lon" : 7.66305,
+      "tags" : {
+      "ref:mipaaf" : "01/C653/CN/01",
+      "ele" : "871",
+      "height" : 38,
+      "circumference" : 6.05,
+      "description:it" : "età e/o dimensioni, forma e portamento, rarità botanica, valore storico, culturale, religioso",
+      "taxon" : "Pinus strobus L.",
+      "species:it" : "Pino strobo",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 58,
+      "lat" : 44.203061,
+      "lon" : 7.647511,
+      "tags" : {
+      "ref:mipaaf" : "02/C653/CN/01",
+      "ele" : "1268",
+      "height" : 36.5,
+      "circumference" : 4.33,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Abies alba Mill.",
+      "species:it" : "Abete bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 59,
+      "lat" : 44.246317,
+      "lon" : 7.674028,
+      "tags" : {
+      "ref:mipaaf" : "03/C653/CN/01",
+      "ele" : "1112",
+      "height" : 18,
+      "circumference" : 1.3,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 60,
+      "lat" : 44.295469,
+      "lon" : 7.285508,
+      "tags" : {
+      "ref:mipaaf" : "01/D271/CN/01",
+      "ele" : "1164",
+      "height" : 13,
+      "circumference" : 6.25,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Ulmus glabra Huds.",
+      "species:it" : "Olmo montano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 61,
+      "lat" : 44.52925,
+      "lon" : 7.947853,
+      "tags" : {
+      "ref:mipaaf" : "01/D314/CN/01",
+      "ele" : "304",
+      "height" : 26,
+      "circumference" : 4.4,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 62,
+      "lat" : 44.466744,
+      "lon" : 7.366164,
+      "tags" : {
+      "ref:mipaaf" : "01/D372/CN/01",
+      "ele" : "620",
+      "height" : 24,
+      "circumference" : 3.52,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 63,
+      "lat" : 44.543192,
+      "lon" : 7.079064,
+      "tags" : {
+      "ref:mipaaf" : "01/D401/CN/01",
+      "ele" : "1562",
+      "height" : 16.5,
+      "circumference" : 3.2,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Fraxinus excelsior L.",
+      "species:it" : "Frassino maggiore",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 64,
+      "lat" : 44.176192,
+      "lon" : 7.389414,
+      "tags" : {
+      "ref:mipaaf" : "01/D410/CN/01",
+      "ele" : "1251",
+      "height" : 26,
+      "circumference" : 4.9,
+      "description:it" : "età e/o dimensioni, forma e portamento, valore storico, culturale, religioso",
+      "taxon" : "Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 65,
+      "lat" : 44.502353,
+      "lon" : 7.910022,
+      "tags" : {
+      "ref:mipaaf" : "01/D499/CN/01",
+      "ele" : "250",
+      "height" : 22,
+      "circumference" : 4.1,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Quercus pubescens Willd.",
+      "species:it" : "Roverella",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 66,
+      "lat" : 44.509228,
+      "lon" : 7.924397,
+      "tags" : {
+      "ref:mipaaf" : "02/D499/CN/01",
+      "ele" : "344",
+      "height" : 28,
+      "circumference" : 4.8,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Quercus pubescens Willd.",
+      "species:it" : "Roverella",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 67,
+      "lat" : 44.236242,
+      "lon" : 7.906742,
+      "tags" : {
+      "ref:mipaaf" : "01/D920/CN/01",
+      "ele" : "992",
+      "height" : 40,
+      "circumference" : 4.52,
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Abies alba Mill.",
+      "species:it" : "Abete bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 68,
+      "lat" : 44.191228,
+      "lon" : 7.579833,
+      "tags" : {
+      "ref:mipaaf" : "01/E597/CN/01",
+      "ele" : "1256",
+      "height" : 30,
+      "circumference" : 5.65,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 69,
+      "lat" : 44.5625,
+      "lon" : 7.297222,
+      "tags" : {
+      "ref:mipaaf" : "01/F114/CN/01",
+      "ele" : "872",
+      "height" : 32,
+      "circumference" : 9.6,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 70,
+      "lat" : 44.326736,
+      "lon" : 7.362017,
+      "tags" : {
+      "ref:mipaaf" : "01/F279/CN/01",
+      "ele" : "1100",
+      "height" : 22.5,
+      "circumference" : 4.85,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 71,
+      "lat" : 44.396911,
+      "lon" : 7.310292,
+      "tags" : {
+      "ref:mipaaf" : "01/F608/CN/01",
+      "ele" : "583",
+      "height" : 25,
+      "circumference" : 6.1,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 72,
+      "lat" : 44.793011,
+      "lon" : 7.917475,
+      "tags" : {
+      "ref:mipaaf" : "01/F654/CN/01",
+      "ele" : "336",
+      "height" : 18.5,
+      "circumference" : 9.7,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 73,
+      "lat" : 44.681483,
+      "lon" : 7.206694,
+      "tags" : {
+      "ref:mipaaf" : "01/G066/CN/01",
+      "ele" : "1066",
+      "height" : 29,
+      "circumference" : 3.87,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Insieme omogeneo di Tilia platyphyllos Scop.",
+      "species:it" : "Tiglio nostrale",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 74,
+      "lat" : 44.148011,
+      "lon" : 7.913183,
+      "tags" : {
+      "ref:mipaaf" : "01/G114/CN/01",
+      "ele" : "830",
+      "height" : 26,
+      "circumference" : 3.7,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Ulmus glabra Huds.",
+      "species:it" : "Olmo montano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 75,
+      "lat" : 44.135747,
+      "lon" : 7.834436,
+      "tags" : {
+      "ref:mipaaf" : "02/G114/CN/01",
+      "ele" : "1183",
+      "height" : 22.5,
+      "circumference" : 2.78,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Betula pendula Roth",
+      "species:it" : "Betulla verrucosa",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 76,
+      "lat" : 44.146883,
+      "lon" : 7.875672,
+      "tags" : {
+      "ref:mipaaf" : "03/G114/CN/01",
+      "ele" : "1100",
+      "height" : 11,
+      "circumference" : 6.3,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Insieme omogeneo di Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 77,
+      "lat" : 44.307944,
+      "lon" : 6.999019,
+      "tags" : {
+      "ref:mipaaf" : "01/G625/CN/01",
+      "ele" : "1939",
+      "height" : 23,
+      "circumference" : 6.6,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico",
+      "taxon" : "Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 78,
+      "lat" : 44.725125,
+      "lon" : 7.998067,
+      "tags" : {
+      "ref:mipaaf" : "01/G683/CN/01",
+      "ele" : "186",
+      "height" : 3.5,
+      "circumference" : 4.2,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Salix alba L.",
+      "species:it" : "Salice bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 79,
+      "lat" : 44.773333,
+      "lon" : 7.675083,
+      "tags" : {
+      "ref:mipaaf" : "01/H150/CN/01",
+      "ele" : "255",
+      "height" : 42,
+      "circumference" : 5.35,
+      "description:it" : "età e/o dimensioni, forma e portamento, rarità botanica",
+      "taxon" : "Zelkova carpinifolia (Pall.) K. Koch",
+      "species:it" : "Olmo del Caucaso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 80,
+      "lat" : 44.312508,
+      "lon" : 7.485936,
+      "tags" : {
+      "ref:mipaaf" : "01/H453/CN/01",
+      "ele" : "657",
+      "height" : 51,
+      "circumference" : 8.9,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Insieme omogeneo di Sequoiadendron giganteum (Lindl.) J. Buchholz",
+      "species:it" : "Sequoia gigante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 81,
+      "lat" : 44.644294,
+      "lon" : 7.659542,
+      "tags" : {
+      "ref:mipaaf" : "01/I470/CN/01",
+      "ele" : "319",
+      "height" : 20,
+      "circumference" : 7.2,
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 82,
+      "lat" : 44.560347,
+      "lon" : 8.057317,
+      "tags" : {
+      "ref:mipaaf" : "01/I659/CN/01",
+      "ele" : "750",
+      "height" : 21.5,
+      "circumference" : 3,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 83,
+      "lat" : 44.206111,
+      "lon" : 7.27,
+      "tags" : {
+      "ref:mipaaf" : "01/L558/CN/01",
+      "ele" : "1400",
+      "height" : 30.5,
+      "circumference" : 3.3,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Insieme omogeneo di Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 84,
+      "lat" : 44.287075,
+      "lon" : 7.399469,
+      "tags" : {
+      "ref:mipaaf" : "02/L558/CN/01",
+      "ele" : "1269",
+      "height" : 6,
+      "circumference" : 0.65,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Juniperus thurifera L.",
+      "species:it" : "Ginepro di Spagna",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 85,
+      "lat" : 44.189097,
+      "lon" : 7.221289,
+      "tags" : {
+      "ref:mipaaf" : "03/L558/CN/01",
+      "ele" : "1950",
+      "height" : 28,
+      "circumference" : 5.7,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 86,
+      "lat" : 44.198744,
+      "lon" : 7.293814,
+      "tags" : {
+      "ref:mipaaf" : "04/L558/CN/01",
+      "ele" : "1990",
+      "height" : 20.5,
+      "circumference" : 4.52,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Insieme omogeneo di Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 87,
+      "lat" : 44.228889,
+      "lon" : 7.531111,
+      "tags" : {
+      "ref:mipaaf" : "01/L771/CN/01",
+      "ele" : "1100",
+      "height" : 30,
+      "circumference" : 3.26,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Ulmus glabra Huds.",
+      "species:it" : "Olmo montano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 88,
+      "lat" : 44.194722,
+      "lon" : 7.491944,
+      "tags" : {
+      "ref:mipaaf" : "02/L771/CN/01",
+      "ele" : "1550",
+      "height" : 25,
+      "circumference" : 4.95,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 89,
+      "lat" : 44.199881,
+      "lon" : 7.521794,
+      "tags" : {
+      "ref:mipaaf" : "03/L771/CN/01",
+      "ele" : "1387",
+      "height" : 25,
+      "circumference" : 4.33,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Fraxinus excelsior L.",
+      "species:it" : "Frassino maggiore",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 90,
+      "lat" : 44.358233,
+      "lon" : 7.861,
+      "tags" : {
+      "ref:mipaaf" : "01/L841/CN/01",
+      "ele" : "521",
+      "height" : 40,
+      "circumference" : 8.8,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Sequoiadendron giganteum (Lindl.) J. Buchholz",
+      "species:it" : "Sequoia gigante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 91,
+      "lat" : 44.218111,
+      "lon" : 7.180133,
+      "tags" : {
+      "ref:mipaaf" : "01/M055/CN/01",
+      "ele" : "2000",
+      "height" : 22,
+      "circumference" : 5.63,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 92,
+      "lat" : 45.749161,
+      "lon" : 8.548178,
+      "tags" : {
+      "ref:mipaaf" : "01/A429/NO/01",
+      "ele" : "298",
+      "height" : 16,
+      "circumference" : 2.5,
+      "description:it" : ", forma e portamento, architettura vegetale",
+      "taxon" : "Juglans regia L.",
+      "species:it" : "Noce comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 93,
+      "lat" : 45.437408,
+      "lon" : 8.466872,
+      "tags" : {
+      "ref:mipaaf" : "01/B864/NO/01",
+      "ele" : "151",
+      "height" : 24,
+      "circumference" : 5.9,
+      "description:it" : "età e/o dimensioni, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Ginkgo biloba L.",
+      "species:it" : "Ginco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 94,
+      "lat" : 45.711772,
+      "lon" : 8.562817,
+      "tags" : {
+      "ref:mipaaf" : "01/C926/NO/01",
+      "ele" : "267",
+      "height" : 33,
+      "circumference" : 6,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Cedrus deodara (D.Don) G.Don",
+      "species:it" : "Cedro dell'Himalaya",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 95,
+      "lat" : 45.745342,
+      "lon" : 8.567539,
+      "tags" : {
+      "ref:mipaaf" : "01/D347/NO/01",
+      "ele" : "200",
+      "height" : 30,
+      "circumference" : 3.6,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Salix alba L.",
+      "species:it" : "Salice bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 96,
+      "lat" : 45.737144,
+      "lon" : 8.572442,
+      "tags" : {
+      "ref:mipaaf" : "02/D347/NO/01",
+      "ele" : "209",
+      "height" : 25,
+      "circumference" : 5.2,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Populus nigra L.",
+      "species:it" : "Pioppo nero",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 97,
+      "lat" : 45.438242,
+      "lon" : 8.632792,
+      "tags" : {
+      "ref:mipaaf" : "01/F952/NO/01",
+      "ele" : "161",
+      "height" : 18.5,
+      "circumference" : 2.4,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Cedrus atlantica (Endl.) Manetti ex Carrière",
+      "species:it" : "Cedro dell'Atlante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 98,
+      "lat" : 45.415283,
+      "lon" : 8.658981,
+      "tags" : {
+      "ref:mipaaf" : "02/F952/NO/01",
+      "ele" : "150",
+      "height" : 30,
+      "circumference" : 4.95,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Juglans nigra L.",
+      "species:it" : "Noce nero",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 99,
+      "lat" : 45.443603,
+      "lon" : 8.617911,
+      "tags" : {
+      "ref:mipaaf" : "03/F952/NO/01",
+      "ele" : "156",
+      "height" : 36,
+      "circumference" : 4.73,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, architettura vegetale, valore storico, culturale, religioso",
+      "taxon" : "Insieme omogeneo di Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 100,
+      "lat" : 45.360672,
+      "lon" : 7.768897,
+      "tags" : {
+      "ref:mipaaf" : "01/A074/TO/01",
+      "ele" : "303",
+      "height" : 55,
+      "circumference" : 6.1,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 101,
+      "lat" : 44.862128,
+      "lon" : 7.184669,
+      "tags" : {
+      "ref:mipaaf" : "01/A295/TO/01",
+      "ele" : "1138",
+      "height" : 22,
+      "circumference" : 3.5,
+      "description:it" : ", forma e portamento, pregio paesaggistico",
+      "taxon" : "Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 102,
+      "lat" : 45.082183,
+      "lon" : 7.770678,
+      "tags" : {
+      "ref:mipaaf" : "01/A591/TO/01",
+      "ele" : "591",
+      "height" : 19,
+      "circumference" : 1.5,
+      "description:it" : ", rarità botanica",
+      "taxon" : "Sorbus x tomentella Gand.",
+      "species:it" : "Sorbo ibrido",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 103,
+      "lat" : 45.079292,
+      "lon" : 6.699156,
+      "tags" : {
+      "ref:mipaaf" : "01/A651/TO/01",
+      "ele" : "1310",
+      "height" : 16.5,
+      "circumference" : 3.1,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Pyrus communis L.",
+      "species:it" : "Pero domestico",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 104,
+      "lat" : 44.800825,
+      "lon" : 7.286122,
+      "tags" : {
+      "ref:mipaaf" : "01/A853/TO/01",
+      "ele" : "453",
+      "height" : 28.5,
+      "circumference" : 4.3,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Tilia cordata Mill.",
+      "species:it" : "Tiglio selvatico",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 105,
+      "lat" : 45.307286,
+      "lon" : 7.891686,
+      "tags" : {
+      "ref:mipaaf" : "01/B435/TO/01",
+      "ele" : "314",
+      "height" : 38,
+      "circumference" : 5.1,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Sequoia sempervirens (D. Don) Endl.",
+      "species:it" : "Sequoia sempreverde",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 106,
+      "lat" : 45.30525,
+      "lon" : 7.888633,
+      "tags" : {
+      "ref:mipaaf" : "02/B435/TO/01",
+      "ele" : "281",
+      "height" : 11,
+      "circumference" : 2.2,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Osmanthus fragrans Lour.",
+      "species:it" : "Osmanto odoroso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 107,
+      "lat" : 44.800417,
+      "lon" : 7.324044,
+      "tags" : {
+      "ref:mipaaf" : "01/B512/TO/01",
+      "ele" : "365",
+      "height" : 40,
+      "circumference" : 5.75,
+      "description:it" : "età e/o dimensioni, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Liriodendron tulipifera L.",
+      "species:it" : "Liriodendro",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 108,
+      "lat" : 44.800247,
+      "lon" : 7.323808,
+      "tags" : {
+      "ref:mipaaf" : "02/B512/TO/01",
+      "ele" : "365",
+      "height" : 36,
+      "circumference" : 5.4,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Calocedrus decurrens (Torr.) Florin",
+      "species:it" : "Libocedro",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 109,
+      "lat" : 44.801822,
+      "lon" : 7.328689,
+      "tags" : {
+      "ref:mipaaf" : "03/B512/TO/01",
+      "ele" : "355",
+      "height" : 30.5,
+      "circumference" : 6.77,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, forma e portamento, pregio paesaggistico",
+      "taxon" : "Insieme omogeneo di Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 110,
+      "lat" : 44.802386,
+      "lon" : 7.329044,
+      "tags" : {
+      "ref:mipaaf" : "04/B512/TO/01",
+      "ele" : "355",
+      "height" : 30,
+      "circumference" : 5.75,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Pterocarya fraxinifolia (Lam.) Spach",
+      "species:it" : "Noce del Caucaso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 111,
+      "lat" : 45.372925,
+      "lon" : 7.605256,
+      "tags" : {
+      "ref:mipaaf" : "01/B605/TO/01",
+      "ele" : "600",
+      "height" : 4.5,
+      "circumference" : 0.87,
+      "description:it" : ", forma e portamento",
+      "taxon" : "Buxus sempervirens L.",
+      "species:it" : "Bosso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 112,
+      "lat" : 45.136633,
+      "lon" : 7.904111,
+      "tags" : {
+      "ref:mipaaf" : "01/B867/TO/01",
+      "ele" : "550",
+      "height" : 22,
+      "circumference" : 3.25,
+      "description:it" : "età e/o dimensioni, rarità botanica, valore storico, culturale, religioso",
+      "taxon" : "Quercus crenata Lam.",
+      "species:it" : "Cerro-sughera",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 113,
+      "lat" : 45.175281,
+      "lon" : 7.893564,
+      "tags" : {
+      "ref:mipaaf" : "01/C045/TO/01",
+      "ele" : "265",
+      "height" : 27,
+      "circumference" : 4.15,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 114,
+      "lat" : 45.175944,
+      "lon" : 7.891967,
+      "tags" : {
+      "ref:mipaaf" : "02/C045/TO/01",
+      "ele" : "265",
+      "height" : 15,
+      "circumference" : 4.3,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 115,
+      "lat" : 45.1523,
+      "lon" : 7.893833,
+      "tags" : {
+      "ref:mipaaf" : "03/C045/TO/01",
+      "ele" : "460",
+      "height" : 28,
+      "circumference" : 3.27,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 116,
+      "lat" : 45.171444,
+      "lon" : 7.896869,
+      "tags" : {
+      "ref:mipaaf" : "04/C045/TO/01",
+      "ele" : "310",
+      "height" : 9,
+      "circumference" : 0.8,
+      "description:it" : "età e/o dimensioni, rarità botanica, architettura vegetale",
+      "taxon" : "Arbutus unedo L.",
+      "species:it" : "Corbezzolo",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 117,
+      "lat" : 45.426864,
+      "lon" : 7.702894,
+      "tags" : {
+      "ref:mipaaf" : "01/C241/TO/01",
+      "ele" : "659",
+      "height" : 23,
+      "circumference" : 4.2,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 118,
+      "lat" : 44.917994,
+      "lon" : 6.776344,
+      "tags" : {
+      "ref:mipaaf" : "01/C564/TO/01",
+      "ele" : "2253",
+      "height" : 9,
+      "circumference" : 3.2,
+      "description:it" : "età e/o dimensioni, forma e portamento, pregio paesaggistico",
+      "taxon" : "Pinus cembra L.",
+      "species:it" : "Pino cembro",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 119,
+      "lat" : 44.918842,
+      "lon" : 6.779028,
+      "tags" : {
+      "ref:mipaaf" : "02/C564/TO/01",
+      "ele" : "2268",
+      "height" : 7,
+      "circumference" : 2.7,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Pinus cembra L.",
+      "species:it" : "Pino cembro",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 120,
+      "lat" : 44.941064,
+      "lon" : 7.374686,
+      "tags" : {
+      "ref:mipaaf" : "01/D202/TO/01",
+      "ele" : "320",
+      "height" : 21,
+      "circumference" : 2.7,
+      "description:it" : ", architettura vegetale, pregio paesaggistico",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 121,
+      "lat" : 44.971958,
+      "lon" : 7.368375,
+      "tags" : {
+      "ref:mipaaf" : "03/D202/TO/01",
+      "ele" : "380",
+      "height" : 20,
+      "circumference" : 3.85,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Ulmus laevis Pallas",
+      "species:it" : "Olmo bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 122,
+      "lat" : 45.160969,
+      "lon" : 7.568803,
+      "tags" : {
+      "ref:mipaaf" : "01/D373/TO/01",
+      "ele" : "310",
+      "height" : 27,
+      "circumference" : 3.08,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Prunus avium L.",
+      "species:it" : "Ciliegio selvatico",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 123,
+      "lat" : 45.16,
+      "lon" : 7.558333,
+      "tags" : {
+      "ref:mipaaf" : "02/D373/TO/01",
+      "ele" : "320",
+      "height" : 21,
+      "circumference" : 3.96,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Quercus petraea subsp. austrotyrrhenica Brullo, R.Guarino & Siracusa",
+      "species:it" : "Rovere",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 124,
+      "lat" : 45.045,
+      "lon" : 7.074167,
+      "tags" : {
+      "ref:mipaaf" : "01/D532/TO/01",
+      "ele" : "1660",
+      "height" : 25,
+      "circumference" : 3.8,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 125,
+      "lat" : 45.045503,
+      "lon" : 7.074292,
+      "tags" : {
+      "ref:mipaaf" : "02/D532/TO/01",
+      "ele" : "1630",
+      "height" : 37,
+      "circumference" : 2.99,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Insieme omogeneo di Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 126,
+      "lat" : 45.016389,
+      "lon" : 7.063056,
+      "tags" : {
+      "ref:mipaaf" : "03/D532/TO/01",
+      "ele" : "1510",
+      "height" : 25.5,
+      "circumference" : 3.95,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Insieme omogeneo di Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 127,
+      "lat" : 45.142458,
+      "lon" : 7.014758,
+      "tags" : {
+      "ref:mipaaf" : "01/E009/TO/01",
+      "ele" : "765",
+      "height" : 10.5,
+      "circumference" : 8.1,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 128,
+      "lat" : 45.465278,
+      "lon" : 7.878889,
+      "tags" : {
+      "ref:mipaaf" : "01/E379/TO/01",
+      "ele" : "244",
+      "height" : 14,
+      "circumference" : 3.2,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Carpinus betulus L.",
+      "species:it" : "Carpino bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 129,
+      "lat" : 45.305744,
+      "lon" : 7.937511,
+      "tags" : {
+      "ref:mipaaf" : "01/F067/TO/01",
+      "ele" : "307",
+      "height" : 27,
+      "circumference" : 3.7,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Tilia tomentosa Moench",
+      "species:it" : "Tiglio argentato",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 130,
+      "lat" : 45.303306,
+      "lon" : 7.937861,
+      "tags" : {
+      "ref:mipaaf" : "02/F067/TO/01",
+      "ele" : "300",
+      "height" : 16.5,
+      "circumference" : 3.08,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Quercus ilex L.",
+      "species:it" : "Leccio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 131,
+      "lat" : 45.303553,
+      "lon" : 7.938331,
+      "tags" : {
+      "ref:mipaaf" : "03/F067/TO/01",
+      "ele" : "301",
+      "height" : 24,
+      "circumference" : 3.56,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Fagus sylvatica L. cv. asplenifolia",
+      "species:it" : "Faggio a foglie di asplenio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 132,
+      "lat" : 45.477906,
+      "lon" : 7.791697,
+      "tags" : {
+      "ref:mipaaf" : "01/F164/TO/01",
+      "ele" : "747",
+      "height" : 54,
+      "circumference" : 2.74,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Insieme omogeneo di Pseudotsuga menziesii (Mirb.) Franco",
+      "species:it" : "Duglasia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 133,
+      "lat" : 45.143689,
+      "lon" : 7.093289,
+      "tags" : {
+      "ref:mipaaf" : "01/F318/TO/01",
+      "ele" : "683",
+      "height" : 5.5,
+      "circumference" : 1.12,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Juniperus oxycedrus L.",
+      "species:it" : "Ginepro coccolone",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 134,
+      "lat" : 45.030417,
+      "lon" : 7.721467,
+      "tags" : {
+      "ref:mipaaf" : "01/F335/TO/01",
+      "ele" : "697",
+      "height" : 18,
+      "circumference" : 4.15,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico",
+      "taxon" : "Quercus pubescens Willd.",
+      "species:it" : "Roverella",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 135,
+      "lat" : 45.205681,
+      "lon" : 6.979444,
+      "tags" : {
+      "ref:mipaaf" : "01/D553/TO/01",
+      "ele" : "1450",
+      "height" : 35,
+      "circumference" : 2.4,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 136,
+      "lat" : 45.205278,
+      "lon" : 6.982311,
+      "tags" : {
+      "ref:mipaaf" : "02/D553/TO/01",
+      "ele" : "1446",
+      "height" : 11,
+      "circumference" : 5.7,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Fraxinus excelsior L.",
+      "species:it" : "Frassino maggiore",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 137,
+      "lat" : 45.338611,
+      "lon" : 7.8375,
+      "tags" : {
+      "ref:mipaaf" : "01/F411/TO/01",
+      "ele" : "352",
+      "height" : 36,
+      "circumference" : 13,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Cedrus atlantica (Endl.) Manetti ex Carrière",
+      "species:it" : "Cedro dell'Atlante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 138,
+      "lat" : 45.496531,
+      "lon" : 7.865425,
+      "tags" : {
+      "ref:mipaaf" : "01/F420/TO/01",
+      "ele" : "305",
+      "height" : 35,
+      "circumference" : 6.85,
+      "description:it" : "età e/o dimensioni, forma e portamento, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Cedrus libani A.Richard",
+      "species:it" : "Cedro del Libano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 139,
+      "lat" : 44.993506,
+      "lon" : 7.594317,
+      "tags" : {
+      "ref:mipaaf" : "01/F889/TO/01",
+      "ele" : "250",
+      "height" : 15,
+      "circumference" : 3.52,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Salix alba L.",
+      "species:it" : "Salice bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 140,
+      "lat" : 44.994006,
+      "lon" : 7.600644,
+      "tags" : {
+      "ref:mipaaf" : "02/F889/TO/01",
+      "ele" : "250",
+      "height" : 27,
+      "circumference" : 4.88,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 141,
+      "lat" : 45.044903,
+      "lon" : 6.825494,
+      "tags" : {
+      "ref:mipaaf" : "01/G196/TO/01",
+      "ele" : "1300",
+      "height" : 15,
+      "circumference" : 2.5,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Pinus sylvestris L.",
+      "species:it" : "Pino silvestre",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 142,
+      "lat" : 45.0375,
+      "lon" : 6.740278,
+      "tags" : {
+      "ref:mipaaf" : "02/G196/TO/01",
+      "ele" : "1600",
+      "height" : 16.5,
+      "circumference" : 3.35,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Insieme omogeneo di Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 143,
+      "lat" : 45.036111,
+      "lon" : 6.738611,
+      "tags" : {
+      "ref:mipaaf" : "03/G196/TO/01",
+      "ele" : "1660",
+      "height" : 22,
+      "circumference" : 3.85,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 144,
+      "lat" : 45.395097,
+      "lon" : 7.831064,
+      "tags" : {
+      "ref:mipaaf" : "01/G462/TO/01",
+      "ele" : "274",
+      "height" : 33.5,
+      "circumference" : 11,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Cedrus atlantica (Endl.) Manetti ex Carrière",
+      "species:it" : "Cedro dell'Atlante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 145,
+      "lat" : 44.863092,
+      "lon" : 7.349422,
+      "tags" : {
+      "ref:mipaaf" : "01/G674/TO/01",
+      "ele" : "345",
+      "height" : 34,
+      "circumference" : 4.75,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Taxodium distichum (L.) Rich",
+      "species:it" : "Cipresso calvo",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 146,
+      "lat" : 45.053711,
+      "lon" : 7.775592,
+      "tags" : {
+      "ref:mipaaf" : "01/G678/TO/01",
+      "ele" : "479",
+      "height" : 24,
+      "circumference" : 1.33,
+      "description:it" : ", rarità botanica",
+      "taxon" : "Sorbus domestica L",
+      "species:it" : "Sorbo domestico",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 147,
+      "lat" : 44.887394,
+      "lon" : 7.268047,
+      "tags" : {
+      "ref:mipaaf" : "01/G900/TO/01",
+      "ele" : "437",
+      "height" : 16,
+      "circumference" : 1.8,
+      "description:it" : "età e/o dimensioni, architettura vegetale, valore storico, culturale, religioso",
+      "taxon" : "Ilex aquifolium L.",
+      "species:it" : "Agrifoglio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 148,
+      "lat" : 44.969892,
+      "lon" : 6.941367,
+      "tags" : {
+      "ref:mipaaf" : "01/G973/TO/01",
+      "ele" : "2004",
+      "height" : 13,
+      "circumference" : 2.03,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Pinus uncinata Ramond ex DC.",
+      "species:it" : "Pino uncinato",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 149,
+      "lat" : 45.031658,
+      "lon" : 7.521947,
+      "tags" : {
+      "ref:mipaaf" : "01/H335/TO/01",
+      "ele" : "295",
+      "height" : 20.5,
+      "circumference" : 3.7,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Magnolia grandiflora L.",
+      "species:it" : "Magnolia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 150,
+      "lat" : 45.031483,
+      "lon" : 7.521033,
+      "tags" : {
+      "ref:mipaaf" : "02/H335/TO/01",
+      "ele" : "293",
+      "height" : 32.5,
+      "circumference" : 6.1,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Taxodium distichum (L.) Rich",
+      "species:it" : "Cipresso calvo",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 151,
+      "lat" : 45.332283,
+      "lon" : 7.626286,
+      "tags" : {
+      "ref:mipaaf" : "01/H338/TO/01",
+      "ele" : "370",
+      "height" : 12,
+      "circumference" : 1.09,
+      "note" : "trees cluster",
+      "description:it" : ", forma e portamento, rarità botanica",
+      "taxon" : "Insieme omogeneo di Magnolia obovata Thunb syn. Magnolia hypoleuca Siebold & Zucc.",
+      "species:it" : "Magnolia giapponese",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 152,
+      "lat" : 45.333008,
+      "lon" : 7.625225,
+      "tags" : {
+      "ref:mipaaf" : "02/H338/TO/01",
+      "ele" : "370",
+      "height" : 14,
+      "circumference" : 5.9,
+      "description:it" : ", rarità botanica, architettura vegetale",
+      "taxon" : "Cupressus torulosa D. Don",
+      "species:it" : "Cipresso del Bhutan",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 153,
+      "lat" : 45.33325,
+      "lon" : 7.625725,
+      "tags" : {
+      "ref:mipaaf" : "03/H338/TO/01",
+      "ele" : "370",
+      "height" : 35,
+      "circumference" : 4.67,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Insieme omogeneo di Sequoia sempervirens (D. Don) Endl.",
+      "species:it" : "Sequoia sempreverde",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 154,
+      "lat" : 45.065753,
+      "lon" : 7.517953,
+      "tags" : {
+      "ref:mipaaf" : "01/H355/TO/01",
+      "ele" : "359",
+      "height" : 29,
+      "circumference" : 6.3,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Cedrus atlantica (Endl.) Manetti ex Carrière",
+      "species:it" : "Cedro dell'Atlante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 155,
+      "lat" : 45.513583,
+      "lon" : 7.577553,
+      "tags" : {
+      "ref:mipaaf" : "01/H539/TO/01",
+      "ele" : "1466",
+      "height" : 33,
+      "circumference" : 4.15,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Ulmus glabra Huds.",
+      "species:it" : "Olmo montano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 156,
+      "lat" : 44.784839,
+      "lon" : 7.179397,
+      "tags" : {
+      "ref:mipaaf" : "01/H554/TO/01",
+      "ele" : "1270",
+      "height" : 23,
+      "circumference" : 4.8,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Fraxinus excelsior L.",
+      "species:it" : "Frassino maggiore",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 157,
+      "lat" : 45.154542,
+      "lon" : 7.929847,
+      "tags" : {
+      "ref:mipaaf" : "01/I152/TO/01",
+      "ele" : "320",
+      "height" : 11,
+      "circumference" : 3.2,
+      "description:it" : "età e/o dimensioni, forma e portamento, pregio paesaggistico",
+      "taxon" : "Ginkgo biloba L.",
+      "species:it" : "Ginco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 158,
+      "lat" : 44.8723,
+      "lon" : 7.308656,
+      "tags" : {
+      "ref:mipaaf" : "01/I154/TO/01",
+      "ele" : "378",
+      "height" : 23,
+      "circumference" : 3.06,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Insieme omogeneo di Carpinus betulus L.",
+      "species:it" : "Carpino bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 159,
+      "lat" : 44.871989,
+      "lon" : 7.307956,
+      "tags" : {
+      "ref:mipaaf" : "02/I154/TO/01",
+      "ele" : "380",
+      "height" : 33,
+      "circumference" : 4.5,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Ginkgo biloba L.",
+      "species:it" : "Ginco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 160,
+      "lat" : 44.872883,
+      "lon" : 7.309436,
+      "tags" : {
+      "ref:mipaaf" : "03/I154/TO/01",
+      "ele" : "377",
+      "height" : 43.5,
+      "circumference" : 4.93,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Liriodendron tulipifera L.",
+      "species:it" : "Liriodendro",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 161,
+      "lat" : 44.872189,
+      "lon" : 7.308261,
+      "tags" : {
+      "ref:mipaaf" : "04/I154/TO/01",
+      "ele" : "379",
+      "height" : 19,
+      "circumference" : 4.03,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Taxus baccata L.",
+      "species:it" : "Tasso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 162,
+      "lat" : 44.872872,
+      "lon" : 7.30735,
+      "tags" : {
+      "ref:mipaaf" : "05/I154/TO/01",
+      "ele" : "377",
+      "height" : 31,
+      "circumference" : 4.88,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Taxodium distichum (L.) Rich",
+      "species:it" : "Cipresso calvo",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 163,
+      "lat" : 44.943369,
+      "lon" : 7.799517,
+      "tags" : {
+      "ref:mipaaf" : "01/I327/TO/01",
+      "ele" : "240",
+      "height" : 36,
+      "circumference" : 3.5,
+      "note" : "trees cluster",
+      "description:it" : ", architettura vegetale, pregio paesaggistico",
+      "taxon" : "Insieme omogeneo di Taxodium distichum (L.) Rich",
+      "species:it" : "Cipresso calvo",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 164,
+      "lat" : 44.950639,
+      "lon" : 7.776439,
+      "tags" : {
+      "ref:mipaaf" : "02/I327/TO/01",
+      "ele" : "238",
+      "height" : 40,
+      "circumference" : 6.8,
+      "description:it" : "età e/o dimensioni, architettura vegetale, valore storico, culturale, religioso",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 165,
+      "lat" : 45.075878,
+      "lon" : 7.638161,
+      "tags" : {
+      "ref:mipaaf" : "01/L219/TO/01",
+      "ele" : "250",
+      "height" : 28,
+      "circumference" : 6.65,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 166,
+      "lat" : 45.063681,
+      "lon" : 7.679497,
+      "tags" : {
+      "ref:mipaaf" : "02/L219/TO/01",
+      "ele" : "230",
+      "height" : 27,
+      "circumference" : 6.05,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Pterocarya fraxinifolia (Lam.) Spach",
+      "species:it" : "Noce del Caucaso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 167,
+      "lat" : 45.063231,
+      "lon" : 7.689486,
+      "tags" : {
+      "ref:mipaaf" : "03/L219/TO/01",
+      "ele" : "235",
+      "height" : 33.5,
+      "circumference" : 5.5,
+      "description:it" : "età e/o dimensioni, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 168,
+      "lat" : 45.063289,
+      "lon" : 7.690289,
+      "tags" : {
+      "ref:mipaaf" : "04/L219/TO/01",
+      "ele" : "230",
+      "height" : 27,
+      "circumference" : 3.7,
+      "description:it" : "età e/o dimensioni, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Ginkgo biloba L.",
+      "species:it" : "Ginco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 169,
+      "lat" : 45.0726,
+      "lon" : 7.689158,
+      "tags" : {
+      "ref:mipaaf" : "05/L219/TO/01",
+      "ele" : "230",
+      "height" : 24,
+      "circumference" : 3.5,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Zelkova carpinifolia (Pall.) K. Koch",
+      "species:it" : "Olmo del Caucaso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 170,
+      "lat" : 45.064267,
+      "lon" : 7.719564,
+      "tags" : {
+      "ref:mipaaf" : "06/L219/TO/01",
+      "ele" : "290",
+      "height" : 13.5,
+      "circumference" : 6.4,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 171,
+      "lat" : 45.052975,
+      "lon" : 7.686317,
+      "tags" : {
+      "ref:mipaaf" : "07/L219/TO/01",
+      "ele" : "220",
+      "height" : 32,
+      "circumference" : 4,
+      "description:it" : "età e/o dimensioni, architettura vegetale",
+      "taxon" : "Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 172,
+      "lat" : 45.057872,
+      "lon" : 7.687889,
+      "tags" : {
+      "ref:mipaaf" : "08/L219/TO/01",
+      "ele" : "230",
+      "height" : 23,
+      "circumference" : 4.75,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Celtis australis L.",
+      "species:it" : "Bagolaro",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 173,
+      "lat" : 45.075789,
+      "lon" : 7.704094,
+      "tags" : {
+      "ref:mipaaf" : "09/L219/TO/01",
+      "ele" : "220",
+      "height" : 27,
+      "circumference" : 4.94,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 174,
+      "lat" : 45.046508,
+      "lon" : 7.683475,
+      "tags" : {
+      "ref:mipaaf" : "10/L219/TO/01",
+      "ele" : "220",
+      "height" : 39.5,
+      "circumference" : 5.5,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 175,
+      "lat" : 45.051172,
+      "lon" : 7.68635,
+      "tags" : {
+      "ref:mipaaf" : "11/L219/TO/01",
+      "ele" : "210",
+      "height" : 30,
+      "circumference" : 6,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 176,
+      "lat" : 45.048147,
+      "lon" : 7.684064,
+      "tags" : {
+      "ref:mipaaf" : "12/L219/TO/01",
+      "ele" : "220",
+      "height" : 36,
+      "circumference" : 5.1,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Platanus acerifolia (Aiton) Willd.",
+      "species:it" : "Platano comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 177,
+      "lat" : 45.0492,
+      "lon" : 7.684675,
+      "tags" : {
+      "ref:mipaaf" : "13/L219/TO/01",
+      "ele" : "220",
+      "height" : 27,
+      "circumference" : 2.8,
+      "note" : "trees cluster",
+      "description:it" : ", architettura vegetale",
+      "taxon" : "Insieme omogeneo di Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 178,
+      "lat" : 44.821714,
+      "lon" : 7.226789,
+      "tags" : {
+      "ref:mipaaf" : "01/L277/TO/01",
+      "ele" : "519",
+      "height" : 25,
+      "circumference" : 5.45,
+      "description:it" : "età e/o dimensioni, forma e portamento, pregio paesaggistico",
+      "taxon" : "Cedrus libani A.Richard",
+      "species:it" : "Cedro del Libano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 179,
+      "lat" : 44.822161,
+      "lon" : 7.213628,
+      "tags" : {
+      "ref:mipaaf" : "02/L277/TO/01",
+      "ele" : "545",
+      "height" : 37,
+      "circumference" : 9.4,
+      "description:it" : "età e/o dimensioni, forma e portamento, pregio paesaggistico",
+      "taxon" : "Sequoiadendron giganteum (Lindl.) J. Buchholz",
+      "species:it" : "Sequoia gigante",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 180,
+      "lat" : 44.991128,
+      "lon" : 7.753147,
+      "tags" : {
+      "ref:mipaaf" : "01/L445/TO/01",
+      "ele" : "265",
+      "height" : 30,
+      "circumference" : 4.3,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 181,
+      "lat" : 45.521936,
+      "lon" : 7.541081,
+      "tags" : {
+      "ref:mipaaf" : "01/B510/TO/01",
+      "ele" : "1464",
+      "height" : 16.5,
+      "circumference" : 2.6,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Fraxinus excelsior L.",
+      "species:it" : "Frassino maggiore",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 182,
+      "lat" : 45.522325,
+      "lon" : 7.545214,
+      "tags" : {
+      "ref:mipaaf" : "02/B510/TO/01",
+      "ele" : "1293",
+      "height" : 40,
+      "circumference" : 3.35,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Picea abies (L.) H. Karst.",
+      "species:it" : "Abete rosso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 183,
+      "lat" : 45.141908,
+      "lon" : 7.610353,
+      "tags" : {
+      "ref:mipaaf" : "01/L727/TO/01",
+      "ele" : "275",
+      "height" : 23,
+      "circumference" : 2.83,
+      "note" : "trees cluster",
+      "description:it" : ", architettura vegetale, valore storico, culturale, religioso",
+      "taxon" : "Insieme omogeneo di Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 184,
+      "lat" : 45.137025,
+      "lon" : 8.093447,
+      "tags" : {
+      "ref:mipaaf" : "01/L787/TO/01",
+      "ele" : "344",
+      "height" : 26,
+      "circumference" : 3.82,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Quercus crenata Lam.",
+      "species:it" : "Cerro-Sughera",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 185,
+      "lat" : 45.099728,
+      "lon" : 7.231675,
+      "tags" : {
+      "ref:mipaaf" : "01/M007/TO/01",
+      "ele" : "721",
+      "height" : 14,
+      "circumference" : 7,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 186,
+      "lat" : 45.092867,
+      "lon" : 7.204939,
+      "tags" : {
+      "ref:mipaaf" : "02/M007/TO/01",
+      "ele" : "1239",
+      "height" : 18.5,
+      "circumference" : 3.55,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Pyrus communis L.",
+      "species:it" : "Pero domestico",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 187,
+      "lat" : 46.140214,
+      "lon" : 8.491678,
+      "tags" : {
+      "ref:mipaaf" : "01/D134/VB/01",
+      "ele" : "884",
+      "height" : 35.5,
+      "circumference" : 4.25,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Fagus sylvatica L. var. `purpureà",
+      "species:it" : "Faggio rosso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 188,
+      "lat" : 46.146133,
+      "lon" : 8.296006,
+      "tags" : {
+      "ref:mipaaf" : "01/D168/VB/01",
+      "ele" : "296",
+      "height" : 21,
+      "circumference" : 2.5,
+      "description:it" : "età e/o dimensioni, rarità botanica",
+      "taxon" : "Sciadopitys verticillata (Thunb.) Siebold & Zucc.",
+      "species:it" : "Koyamaki",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 189,
+      "lat" : 46.204003,
+      "lon" : 8.298719,
+      "tags" : {
+      "ref:mipaaf" : "01/D177/VB/01",
+      "ele" : "1340",
+      "height" : 24,
+      "circumference" : 4.1,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Picea abies (L.) H. Karst.",
+      "species:it" : "Abete rosso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 190,
+      "lat" : 46.230572,
+      "lon" : 8.338294,
+      "tags" : {
+      "ref:mipaaf" : "02/D177/VB/01",
+      "ele" : "700",
+      "height" : 17.5,
+      "circumference" : 8.7,
+      "description:it" : "età e/o dimensioni, valore storico, culturale, religioso",
+      "taxon" : "Castanea sativa Mill.",
+      "species:it" : "Castagno",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 191,
+      "lat" : 45.970689,
+      "lon" : 7.964247,
+      "tags" : {
+      "ref:mipaaf" : "01/E790/VB/01",
+      "ele" : "1317",
+      "height" : 15,
+      "circumference" : 8.3,
+      "description:it" : "età e/o dimensioni, forma e portamento, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Tilia platyphyllos Scop.",
+      "species:it" : "Tiglio nostrale",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 192,
+      "lat" : 45.781139,
+      "lon" : 8.356053,
+      "tags" : {
+      "ref:mipaaf" : "01/E795/VB/01",
+      "ele" : "889",
+      "height" : 31,
+      "circumference" : 3.42,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Acer pseudoplatanus L.",
+      "species:it" : "Acero di monte",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 193,
+      "lat" : 45.960375,
+      "lon" : 8.448931,
+      "tags" : {
+      "ref:mipaaf" : "01/F146/VB/01",
+      "ele" : "196",
+      "height" : 13,
+      "circumference" : 5.5,
+      "description:it" : "età e/o dimensioni, rarità botanica, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Ulmus minor Mill.",
+      "species:it" : "Olmo campestre",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 194,
+      "lat" : 45.983642,
+      "lon" : 8.403236,
+      "tags" : {
+      "ref:mipaaf" : "01/G117/VB/01",
+      "ele" : "209",
+      "height" : 28.5,
+      "circumference" : 3.8,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Fraxinus excelsior L.",
+      "species:it" : "Frassino maggiore",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 195,
+      "lat" : 46.021864,
+      "lon" : 8.248156,
+      "tags" : {
+      "ref:mipaaf" : "01/G600/VB/01",
+      "ele" : "475",
+      "height" : 25,
+      "circumference" : 4.75,
+      "description:it" : "età e/o dimensioni, forma e portamento, pregio paesaggistico",
+      "taxon" : "Aesculus hippocastanum L.",
+      "species:it" : "Ippocastano",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 196,
+      "lat" : 45.995036,
+      "lon" : 8.363514,
+      "tags" : {
+      "ref:mipaaf" : "01/H037/VB/01",
+      "ele" : "247",
+      "height" : 8.5,
+      "circumference" : 3.62,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Taxus baccata L.",
+      "species:it" : "Tasso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 197,
+      "lat" : 46.022567,
+      "lon" : 8.353931,
+      "tags" : {
+      "ref:mipaaf" : "02/H037/VB/01",
+      "ele" : "1038",
+      "height" : 28,
+      "circumference" : 4.83,
+      "description:it" : "età e/o dimensioni, forma e portamento, pregio paesaggistico",
+      "taxon" : "Quercus petraea subsp. austrotyrrhenica Brullo, R.Guarino & Siracusa",
+      "species:it" : "Rovere",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 198,
+      "lat" : 45.884736,
+      "lon" : 8.538733,
+      "tags" : {
+      "ref:mipaaf" : "01/I976/VB/01",
+      "ele" : "270",
+      "height" : 35,
+      "circumference" : 8,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Cedrus deodara (D.Don) G.Don",
+      "species:it" : "Cedro dell'Himalaya",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 199,
+      "lat" : 45.895475,
+      "lon" : 8.527222,
+      "tags" : {
+      "ref:mipaaf" : "02/I976/VB/01",
+      "ele" : "203",
+      "height" : 30,
+      "circumference" : 7.2,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Cinnamomum camphora T.Nees et Eberm",
+      "species:it" : "Albero della canfora",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 200,
+      "lat" : 45.912497,
+      "lon" : 8.538497,
+      "tags" : {
+      "ref:mipaaf" : "03/I976/VB/01",
+      "ele" : "194",
+      "height" : 25,
+      "circumference" : 4.7,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Taxodium distichum (L.) Rich",
+      "species:it" : "Cipresso calvo",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 201,
+      "lat" : 45.911122,
+      "lon" : 8.537803,
+      "tags" : {
+      "ref:mipaaf" : "04/I976/VB/01",
+      "ele" : "212",
+      "height" : 25,
+      "circumference" : 4.5,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Cupressus cashmeriana Royle ex Carrière",
+      "species:it" : "Cipresso del Cashmere",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 202,
+      "lat" : 45.911192,
+      "lon" : 8.538981,
+      "tags" : {
+      "ref:mipaaf" : "05/I976/VB/01",
+      "ele" : "201",
+      "height" : 18,
+      "circumference" : 3.5,
+      "description:it" : "età e/o dimensioni, rarità botanica, architettura vegetale",
+      "taxon" : "Quercus suber L.",
+      "species:it" : "Sughera",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 203,
+      "lat" : 45.910953,
+      "lon" : 8.538894,
+      "tags" : {
+      "ref:mipaaf" : "06/I976/VB/01",
+      "ele" : "200",
+      "height" : 22,
+      "circumference" : 4.35,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Magnolia grandiflora L.",
+      "species:it" : "Magnolia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 204,
+      "lat" : 46.216508,
+      "lon" : 8.21745,
+      "tags" : {
+      "ref:mipaaf" : "01/L336/VB/01",
+      "ele" : "1273",
+      "height" : 33,
+      "circumference" : 6.47,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Fagus sylvatica L.",
+      "species:it" : "Faggio",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 205,
+      "lat" : 46.270697,
+      "lon" : 8.146439,
+      "tags" : {
+      "ref:mipaaf" : "01/L691/VB/01",
+      "ele" : "1730",
+      "height" : 22,
+      "circumference" : 4.58,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Insieme omogeneo di Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 206,
+      "lat" : 46.281242,
+      "lon" : 8.164067,
+      "tags" : {
+      "ref:mipaaf" : "02/L691/VB/01",
+      "ele" : "1924",
+      "height" : 25,
+      "circumference" : 4.6,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 207,
+      "lat" : 45.944722,
+      "lon" : 8.516389,
+      "tags" : {
+      "ref:mipaaf" : "01/L746/VB/01",
+      "ele" : "405",
+      "height" : 14,
+      "circumference" : 3.7,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Taxus baccata L.",
+      "species:it" : "Tasso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 208,
+      "lat" : 45.924903,
+      "lon" : 8.559922,
+      "tags" : {
+      "ref:mipaaf" : "02/L746/VB/01",
+      "ele" : "222",
+      "height" : 15,
+      "circumference" : 3.2,
+      "description:it" : "età e/o dimensioni, forma e portamento, architettura vegetale",
+      "taxon" : "Davidia involucrata Baill.",
+      "species:it" : "Albero dei fazzoletti",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 209,
+      "lat" : 45.733389,
+      "lon" : 8.220136,
+      "tags" : {
+      "ref:mipaaf" : "01/B041/VC/01",
+      "ele" : "903",
+      "height" : 12.5,
+      "circumference" : 3.16,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, forma e portamento, valore ecologico",
+      "taxon" : "Insieme omogeneo di Carpinus betulus L.",
+      "species:it" : "Carpino bianco",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 210,
+      "lat" : 45.79605,
+      "lon" : 7.988536,
+      "tags" : {
+      "ref:mipaaf" : "01/B505/VC/01",
+      "ele" : "1375",
+      "height" : 37,
+      "circumference" : 4.1,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Picea abies (L.) H. Karst.",
+      "species:it" : "Abete rosso",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 211,
+      "lat" : 45.914083,
+      "lon" : 8.049194,
+      "tags" : {
+      "ref:mipaaf" : "01/B752/VC/01",
+      "ele" : "1562",
+      "height" : 37.5,
+      "circumference" : 4.6,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 212,
+      "lat" : 45.910728,
+      "lon" : 8.049314,
+      "tags" : {
+      "ref:mipaaf" : "02/B752/VC/01",
+      "ele" : "1340",
+      "height" : 21,
+      "circumference" : 5.4,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Fraxinus excelsior L.",
+      "species:it" : "Frassino maggiore",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 213,
+      "lat" : 45.192931,
+      "lon" : 8.122369,
+      "tags" : {
+      "ref:mipaaf" : "01/D154/VC/01",
+      "ele" : "150",
+      "height" : 24,
+      "circumference" : 3.45,
+      "description:it" : ", forma e portamento",
+      "taxon" : "Tilia × europaea L. syn Tilia x vulgaris B. Heyne syn Tilia intermedia DC",
+      "species:it" : "Tiglio comune",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 214,
+      "lat" : 45.619378,
+      "lon" : 8.3252,
+      "tags" : {
+      "ref:mipaaf" : "01/E711/VC/01",
+      "ele" : "296",
+      "height" : 12,
+      "circumference" : 3.05,
+      "description:it" : "età e/o dimensioni, forma e portamento",
+      "taxon" : "Prunus avium L.",
+      "species:it" : "Ciliegio selvatico",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 215,
+      "lat" : 45.173114,
+      "lon" : 8.219992,
+      "tags" : {
+      "ref:mipaaf" : "01/G266/VC/01",
+      "ele" : "134",
+      "height" : 39,
+      "circumference" : 4.1,
+      "description:it" : "età e/o dimensioni",
+      "taxon" : "Populus x euramericana (Dode) Guiner",
+      "species:it" : "Pioppo ibrido",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 216,
+      "lat" : 45.884406,
+      "lon" : 8.000347,
+      "tags" : {
+      "ref:mipaaf" : "01/H291/VC/01",
+      "ele" : "1713",
+      "height" : 45,
+      "circumference" : 5.5,
+      "description:it" : "età e/o dimensioni, pregio paesaggistico, valore storico, culturale, religioso",
+      "taxon" : "Larix decidua Mill.",
+      "species:it" : "Larice",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 217,
+      "lat" : 45.221106,
+      "lon" : 8.253622,
+      "tags" : {
+      "ref:mipaaf" : "01/L429/VC/01",
+      "ele" : "187",
+      "height" : 28,
+      "circumference" : 3.15,
+      "description:it" : ", forma e portamento",
+      "taxon" : "Quercus robur L.",
+      "species:it" : "Farnia",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+,
+    {
+      "id"  : 218,
+      "lat" : 45.330553,
+      "lon" : 8.421917,
+      "tags" : {
+      "ref:mipaaf" : "01/L750/VC/01",
+      "ele" : "125",
+      "height" : 32,
+      "circumference" : 4.5,
+      "note" : "trees cluster",
+      "description:it" : "età e/o dimensioni, architettura vegetale, pregio paesaggistico",
+      "taxon" : "Insieme omogeneo di Liquidambar styracyflua L.",
+      "species:it" : "Noce satinato",
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+    }
+]

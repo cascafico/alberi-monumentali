@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2020-08-31T08:57:03Z" areas="2020-08-31T08:20:02Z"/>
+
+  <node id="2124618451" lat="45.6081093" lon="13.8585120" version="5" timestamp="2018-12-12T14:42:38Z" changeset="65411460" uid="1624486" user="thetornado76">
+    <tag k="circumference" v="4.3"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="genus" v="Tilia"/>
+    <tag k="genus:de" v="Linde"/>
+    <tag k="genus:it" v="tiglio"/>
+    <tag k="genus:sl" v="lipa"/>
+    <tag k="height" v="12"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="014/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Tiglio selvatico"/>
+    <tag k="start_date" v="1667"/>
+    <tag k="survey:date" v="2016-11-19"/>
+    <tag k="taxon" v="Tilia cordata Mill."/>
+  </node>
+  <node id="2874024034" lat="46.0942322" lon="13.4273356" version="8" timestamp="2020-08-25T09:14:30Z" changeset="89903174" uid="361003" user="Cascafico">
+    <tag k="circumference" v="3.95"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="25.5"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/6/6f/Pino_Nero_Laricio.jpg"/>
+    <tag k="leaf_cycle" v="evergreen"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="name" v="Arnoldo"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/C758/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species" v="Calabrica"/>
+    <tag k="species:it" v="Pino laricio"/>
+    <tag k="start_date" v="1890"/>
+    <tag k="survey:date" v="2015-07-20"/>
+    <tag k="taxon" v="Pinus nigra subsp. laricio Maire"/>
+  </node>
+  <node id="4216081495" lat="46.0241260" lon="13.4293653" version="4" timestamp="2018-12-03T08:37:04Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="access" v="yes"/>
+    <tag k="circumference" v="5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="genus" v="Cupressus L."/>
+    <tag k="height" v="21"/>
+    <tag k="leaf_cycle" v="evergreen"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/H029/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species" v="Cupressus sempervirens L."/>
+    <tag k="species:it" v="Cipresso comune"/>
+    <tag k="start_date" v="1580"/>
+    <tag k="survey:date" v="2015-07-09"/>
+    <tag k="taxon" v="Cupressus sempervirens L."/>
+  </node>
+  <node id="4387472103" lat="46.0606704" lon="13.2290423" version="2" timestamp="2018-12-03T08:37:04Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.2"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="24"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="004/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Ippocastano"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Aesculus hippocastanum L."/>
+  </node>
+  <node id="4438216955" lat="46.0546246" lon="13.2464452" version="2" timestamp="2018-12-03T08:37:04Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.15"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="32"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="023/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Platano comune"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Platanus acerifolia (Aiton) Willd."/>
+  </node>
+  <node id="5543849268" lat="46.0625782" lon="13.2368094" version="2" timestamp="2018-12-03T08:37:04Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="fixme" v="probabilmente quello qualche mt a nordest"/>
+    <tag k="height" v="25"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="027/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Cedrus libani A.Richard"/>
+  </node>
+  <node id="5594894907" lat="46.0579996" lon="13.2461192" version="2" timestamp="2018-12-03T08:37:05Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="20"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="028/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cipresso del Cashmere"/>
+    <tag k="survey:date" v="2016-09-16"/>
+    <tag k="taxon" v="Cupressus cashmeriana Royle ex Carri re"/>
+  </node>
+  <node id="5697339360" lat="46.5067080" lon="13.4388220" version="2" timestamp="2018-12-03T08:37:05Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="6.33"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="ele" v="720"/>
+    <tag k="height" v="22"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="01/E847/UD/06"/>
+    <tag k="ref:mipaaf" v="001/E847/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species" v="Tilia cordata Mill."/>
+    <tag k="species:it" v="Tiglio selvatico"/>
+    <tag k="start_date" v="1620"/>
+    <tag k="survey:date" v="2016-10-15"/>
+    <tag k="taxon" v="Tilia cordata Mill."/>
+  </node>
+  <node id="5774068562" lat="46.0711207" lon="13.2294979" version="3" timestamp="2018-12-03T08:37:05Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.75"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="30"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="016/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112491394" lat="46.4381000" lon="13.5478200" version="1" timestamp="2018-12-03T08:36:43Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.9"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="36"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="011/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete rosso"/>
+    <tag k="survey:date" v="2016-10-09"/>
+    <tag k="taxon" v="Picea abies (L.) H. Karst."/>
+  </node>
+  <node id="6112491395" lat="46.4983000" lon="13.5956900" version="1" timestamp="2018-12-03T08:36:43Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.7"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="24"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="008/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Tiglio selvatico"/>
+    <tag k="survey:date" v="2016-10-09"/>
+    <tag k="taxon" v="Tilia cordata Mill."/>
+  </node>
+  <node id="6112491396" lat="45.9052000" lon="13.0503000" version="1" timestamp="2018-12-03T08:36:43Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="7.8"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="21"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/A810/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Farnia"/>
+    <tag k="survey:date" v="2016-10-10"/>
+    <tag k="taxon" v="Quercus robur L."/>
+  </node>
+  <node id="6112491397" lat="46.0239000" lon="13.4289700" version="1" timestamp="2018-12-03T08:36:43Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.36"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="21"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/H029/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cipresso comune"/>
+    <tag k="survey:date" v="2016-09-20"/>
+    <tag k="taxon" v="Cupressus sempervirens L."/>
+  </node>
+  <node id="6112491398" lat="46.5648000" lon="13.1167400" version="1" timestamp="2018-12-03T08:36:44Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.8"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="35"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/G381/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete bianco"/>
+    <tag k="survey:date" v="2016-06-12"/>
+    <tag k="taxon" v="Abies alba Mill."/>
+  </node>
+  <node id="6112491399" lat="46.4743000" lon="12.7768300" version="1" timestamp="2018-12-03T08:36:44Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.94"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="25"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/A267/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Larice"/>
+    <tag k="survey:date" v="2016-03-13"/>
+    <tag k="taxon" v="Larix decidua Mill."/>
+  </node>
+  <node id="6112491400" lat="46.2155486" lon="13.2229552" version="1" timestamp="2018-12-03T08:36:44Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.25"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="30"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/L050/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Platano occidentale"/>
+    <tag k="survey:date" v="2016-09-18"/>
+    <tag k="taxon" v="Platanus occidentalis L."/>
+  </node>
+  <node id="6112491401" lat="45.9217000" lon="13.1388600" version="1" timestamp="2018-12-03T08:36:44Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.74"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="27.3"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/L039/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-06-05"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112491402" lat="46.0016915" lon="12.4306704" version="1" timestamp="2018-12-03T08:36:44Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.3"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="12"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="003/B598/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Castagno"/>
+    <tag k="survey:date" v="2015-07-29"/>
+    <tag k="taxon" v="Castanea sativa Mill."/>
+  </node>
+  <node id="6112491403" lat="45.9494000" lon="13.0118800" version="1" timestamp="2018-12-03T08:36:44Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.1"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="16"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="008/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Tasso"/>
+    <tag k="survey:date" v="2017-02-15"/>
+    <tag k="taxon" v="Taxus baccata L."/>
+  </node>
+  <node id="6112491404" lat="45.9497000" lon="13.0093800" version="1" timestamp="2018-12-03T08:36:44Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.75"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="26.6"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-10-17"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112491405" lat="45.9503739" lon="13.0083007" version="1" timestamp="2018-12-03T08:36:45Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.28"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="22"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Bagolaro"/>
+    <tag k="survey:date" v="2016-10-17"/>
+    <tag k="taxon" v="Celtis australis L."/>
+  </node>
+  <node id="6112491406" lat="45.9501000" lon="13.0124800" version="1" timestamp="2018-12-03T08:36:45Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="1.9"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="15"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Magnolia"/>
+    <tag k="survey:date" v="2016-10-18"/>
+    <tag k="taxon" v="Magnolia grandiflora L."/>
+  </node>
+  <node id="6112491407" lat="45.9494000" lon="13.0085700" version="1" timestamp="2018-12-03T08:36:45Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.2"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="19"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="004/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Paulonia"/>
+    <tag k="survey:date" v="2016-10-18"/>
+    <tag k="taxon" v="Paulownia tomentosa (Thunb.) Steud."/>
+  </node>
+  <node id="6112491408" lat="46.1636000" lon="12.8693600" version="1" timestamp="2018-12-03T08:36:45Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.61"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="21"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/I621/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Farnia"/>
+    <tag k="survey:date" v="2016-11-05"/>
+    <tag k="taxon" v="Quercus robur L."/>
+  </node>
+  <node id="6112491409" lat="45.7500598" lon="13.4594938" version="1" timestamp="2018-12-03T08:36:45Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.14"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="20"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/E125/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Farnia"/>
+    <tag k="survey:date" v="2016-11-01"/>
+    <tag k="taxon" v="Quercus robur L."/>
+  </node>
+  <node id="6112491410" lat="46.0826000" lon="13.1863800" version="1" timestamp="2018-12-03T08:36:45Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.1"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="24"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="026/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pioppo nero"/>
+    <tag k="survey:date" v="2016-08-10"/>
+    <tag k="taxon" v="Populus nigra L."/>
+  </node>
+  <node id="6112491411" lat="45.8252000" lon="13.5004200" version="2" timestamp="2020-07-16T10:20:14Z" changeset="88080870" uid="361003" user="Cascafico">
+    <tag k="circumference" v="4.1"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="22"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/H531/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pioppo nero"/>
+    <tag k="survey:date" v="2016-11-11"/>
+    <tag k="taxon" v="Populus nigra L."/>
+    <tag k="wikidata" v="Q55741450"/>
+  </node>
+  <node id="6112491412" lat="46.1867000" lon="13.3117300" version="1" timestamp="2018-12-03T08:36:46Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="6"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="35"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/A491/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Tuia gigante"/>
+    <tag k="survey:date" v="2015-07-05"/>
+    <tag k="taxon" v="Thuja plicata Donn ex D.Don"/>
+  </node>
+  <node id="6112491413" lat="46.1884878" lon="13.3055270" version="1" timestamp="2018-12-03T08:36:46Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.7"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="21"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/A491/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Platano comune"/>
+    <tag k="survey:date" v="2015-07-05"/>
+    <tag k="taxon" v="Platanus acerifolia (Aiton) Willd."/>
+  </node>
+  <node id="6112491414" lat="46.1913751" lon="13.3041751" version="1" timestamp="2018-12-03T08:36:46Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="6.6"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="31"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="004/A491/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Farnia"/>
+    <tag k="survey:date" v="2015-07-05"/>
+    <tag k="taxon" v="Quercus robur L."/>
+  </node>
+  <node id="6112491415" lat="45.9953000" lon="13.0767100" version="1" timestamp="2018-12-03T08:36:46Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="18"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/A700/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Bagolaro"/>
+    <tag k="survey:date" v="2015-09-22"/>
+    <tag k="taxon" v="Celtis australis L."/>
+  </node>
+  <node id="6112491416" lat="46.0122000" lon="13.0684400" version="1" timestamp="2018-12-03T08:36:46Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.78"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="18"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/A700/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Sofora del Giappone"/>
+    <tag k="survey:date" v="2015-09-29"/>
+    <tag k="taxon" v="Styphnolobium japonicum (L.) Schott"/>
+  </node>
+  <node id="6112491417" lat="45.9956000" lon="13.0814800" version="1" timestamp="2018-12-03T08:36:46Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.38"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="8"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/A700/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Gelso nero"/>
+    <tag k="survey:date" v="2015-10-06"/>
+    <tag k="taxon" v="Morus nigra L."/>
+  </node>
+  <node id="6112491418" lat="46.1820000" lon="12.4638500" version="1" timestamp="2018-12-03T08:36:47Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.24"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="15"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/A640/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Tasso"/>
+    <tag k="survey:date" v="2014-10-12"/>
+    <tag k="taxon" v="Taxus baccata L."/>
+  </node>
+  <node id="6112491419" lat="46.0949000" lon="13.4288900" version="2" timestamp="2020-02-03T09:01:46Z" changeset="80466126" uid="361003" user="Cascafico">
+    <tag k="access" v="private"/>
+    <tag k="circumference" v="3.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="25"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/9/9c/Ginko_biloba.jpg"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/C758/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Ginco"/>
+    <tag k="survey:date" v="2016-07-20"/>
+    <tag k="taxon" v="Ginkgo biloba L."/>
+  </node>
+  <node id="6112491420" lat="46.1095238" lon="13.4154680" version="1" timestamp="2018-12-03T08:36:47Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.55"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="21"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/C758/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Olmo campestre"/>
+    <tag k="survey:date" v="2015-07-20"/>
+    <tag k="taxon" v="Ulmus minor Mill."/>
+  </node>
+  <node id="6112491421" lat="46.0556046" lon="13.4235656" version="1" timestamp="2018-12-03T08:36:47Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.3"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="25"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="004/C758/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pioppo nero"/>
+    <tag k="survey:date" v="2015-07-21"/>
+    <tag k="taxon" v="Populus nigra L."/>
+  </node>
+  <node id="6112491422" lat="46.0897000" lon="13.4513600" version="4" timestamp="2020-06-29T13:41:28Z" changeset="87297880" uid="9563645" user="CamelCaseNick">
+    <tag k="circumference" v="2.4"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="5.5"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/7/7f/-Morus_nigra_L..jpg"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="005/C758/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Gelso nero"/>
+    <tag k="species:wikidata" v="Q161040"/>
+    <tag k="species:wikipedia" v="it:Morus nigra"/>
+    <tag k="survey:date" v="2015-07-21"/>
+    <tag k="taxon" v="Morus nigra L."/>
+  </node>
+  <node id="6112491424" lat="46.1591000" lon="13.2152500" version="1" timestamp="2018-12-03T08:36:48Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="31"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/L421/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-10-11"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112491425" lat="46.1617000" lon="13.2118500" version="1" timestamp="2018-12-03T08:36:48Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="1.6"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="2.5"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/L421/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Glicine"/>
+    <tag k="survey:date" v="2016-08-10"/>
+    <tag k="taxon" v="Wisteria sinensis (Sims) Sweet"/>
+  </node>
+  <node id="6112491426" lat="46.1736000" lon="13.2188100" version="1" timestamp="2018-12-03T08:36:48Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.7"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="28"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/L421/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pioppo canescente"/>
+    <tag k="survey:date" v="2016-09-21"/>
+    <tag k="taxon" v="Populus canescens (Aiton) Sm."/>
+  </node>
+  <node id="6112491427" lat="45.9233000" lon="12.6847000" version="1" timestamp="2018-12-03T08:36:48Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.45"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="25"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/D621/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Farnia"/>
+    <tag k="survey:date" v="2016-10-14"/>
+    <tag k="taxon" v="Quercus robur L."/>
+  </node>
+  <node id="6112491428" lat="46.1733000" lon="13.2194700" version="1" timestamp="2018-12-03T08:36:48Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.35"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="20"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="006/L421/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cipresso di Monterey"/>
+    <tag k="survey:date" v="2016-09-21"/>
+    <tag k="taxon" v="Cupressus macrocarpa Hartw."/>
+  </node>
+  <node id="6112491429" lat="46.4755000" lon="13.5356800" version="1" timestamp="2018-12-03T08:36:48Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.45"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="31"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete rosso"/>
+    <tag k="survey:date" v="2016-12-11"/>
+    <tag k="taxon" v="Picea abies (L.) H. Karst."/>
+  </node>
+  <node id="6112491430" lat="46.4756000" lon="13.5360700" version="1" timestamp="2018-12-03T08:36:48Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.53"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="32.2"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="004/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete rosso"/>
+    <tag k="survey:date" v="2016-12-11"/>
+    <tag k="taxon" v="Picea abies (L.) H. Karst."/>
+  </node>
+  <node id="6112491431" lat="46.5407000" lon="13.5364800" version="1" timestamp="2018-12-03T08:36:49Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="11"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="005/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Acero di monte"/>
+    <tag k="survey:date" v="2015-09-21"/>
+    <tag k="taxon" v="Acer pseudoplatanus L."/>
+  </node>
+  <node id="6112491432" lat="46.4924000" lon="13.6867700" version="1" timestamp="2018-12-03T08:36:49Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.125"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="29.5"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="006/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Acero di monte"/>
+    <tag k="survey:date" v="2016-03-15"/>
+    <tag k="taxon" v="Acer pseudoplatanus L."/>
+  </node>
+  <node id="6112491433" lat="46.5104883" lon="13.5262299" version="1" timestamp="2018-12-03T08:36:49Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.25"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="32"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="013/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Faggio"/>
+    <tag k="survey:date" v="2015-08-13"/>
+    <tag k="taxon" v="Fagus sylvatica L."/>
+  </node>
+  <node id="6112491434" lat="46.4748000" lon="13.5351600" version="1" timestamp="2018-12-03T08:36:49Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.31"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="27"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Larice"/>
+    <tag k="survey:date" v="2016-12-11"/>
+    <tag k="taxon" v="Larix decidua Mill."/>
+  </node>
+  <node id="6112491435" lat="46.5120001" lon="13.6245114" version="1" timestamp="2018-12-03T08:36:49Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.05"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="19"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="007/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Noce comune"/>
+    <tag k="survey:date" v="2014-06-11"/>
+    <tag k="taxon" v="Juglans regia L."/>
+  </node>
+  <node id="6112491436" lat="45.9590000" lon="12.6170300" version="1" timestamp="2018-12-03T08:36:49Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.55"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="34"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/G886/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Albero dei tulipani"/>
+    <tag k="survey:date" v="2016-10-15"/>
+    <tag k="taxon" v="Liriodendron tulipifera L."/>
+  </node>
+  <node id="6112491437" lat="46.5066209" lon="13.5683647" version="1" timestamp="2018-12-03T08:36:49Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.45"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="24"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="009/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Salice bianco"/>
+    <tag k="survey:date" v="2014-06-11"/>
+    <tag k="taxon" v="Salix alba L."/>
+  </node>
+  <node id="6112491438" lat="46.0238000" lon="13.4294900" version="1" timestamp="2018-12-03T08:36:50Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="1.8"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="4.5"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/H029/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Glicine"/>
+    <tag k="survey:date" v="2015-07-10"/>
+    <tag k="taxon" v="Wisteria sinensis (Sims) Sweet"/>
+  </node>
+  <node id="6112491439" lat="46.0243000" lon="13.4294600" version="1" timestamp="2018-12-03T08:36:50Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="1.84"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="15"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="004/H029/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Tuia gigante"/>
+    <tag k="survey:date" v="2015-07-21"/>
+    <tag k="taxon" v="Thuja plicata Donn ex D.Don"/>
+  </node>
+  <node id="6112491440" lat="46.5705000" lon="13.1107500" version="1" timestamp="2018-12-03T08:36:50Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.65"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="42"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/G381/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete rosso"/>
+    <tag k="survey:date" v="2016-07-15"/>
+    <tag k="taxon" v="Picea abies (L.) H. Karst."/>
+  </node>
+  <node id="6112491441" lat="46.5113000" lon="13.3059900" version="1" timestamp="2018-12-03T08:36:50Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.9"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="25"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/G831/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Tiglio selvatico"/>
+    <tag k="survey:date" v="2014-10-03"/>
+    <tag k="taxon" v="Tilia cordata Mill."/>
+  </node>
+  <node id="6112491442" lat="46.5103148" lon="13.3140162" version="1" timestamp="2018-12-03T08:36:50Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.48"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="16"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/G831/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pero domestico"/>
+    <tag k="survey:date" v="2016-03-20"/>
+    <tag k="taxon" v="Pyrus communis L."/>
+  </node>
+  <node id="6112491443" lat="46.5061778" lon="13.3026168" version="1" timestamp="2018-12-03T08:36:50Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.92"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="18"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/G831/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Noce comune"/>
+    <tag k="survey:date" v="2016-06-17"/>
+    <tag k="taxon" v="Juglans regia L."/>
+  </node>
+  <node id="6112491444" lat="46.1017000" lon="13.5489200" version="1" timestamp="2018-12-03T08:36:50Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.35"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="23"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/H951/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Betulla verrucosa"/>
+    <tag k="survey:date" v="2015-07-20"/>
+    <tag k="taxon" v="Betula pendula Roth"/>
+  </node>
+  <node id="6112491445" lat="45.9497000" lon="13.0132300" version="1" timestamp="2018-12-03T08:36:51Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.9"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="20"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="007/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Spino di Giuda"/>
+    <tag k="survey:date" v="2015-07-04"/>
+    <tag k="taxon" v="Gleditzia triacanthos L."/>
+  </node>
+  <node id="6112491446" lat="45.9570000" lon="12.6178900" version="1" timestamp="2018-12-03T08:36:51Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.5"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="25"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="002/G886/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Bagolaro"/>
+    <tag k="survey:date" v="2016-10-15"/>
+    <tag k="taxon" v="Celtis australis L."/>
+  </node>
+  <node id="6112491447" lat="45.9490000" lon="13.0090000" version="1" timestamp="2018-12-03T08:36:51Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.3"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="30"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="009/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Platano comune"/>
+    <tag k="survey:date" v="2016-10-05"/>
+    <tag k="taxon" v="Platanus acerifolia (Aiton) Willd."/>
+  </node>
+  <node id="6112491448" lat="45.9488000" lon="13.0094200" version="1" timestamp="2018-12-03T08:36:51Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.09"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="22"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="010/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Ippocastano"/>
+    <tag k="survey:date" v="2016-10-05"/>
+    <tag k="taxon" v="Aesculus hippocastanum L."/>
+  </node>
+  <node id="6112491449" lat="45.9528000" lon="13.0090200" version="1" timestamp="2018-12-03T08:36:51Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.95"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="21"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="011/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-10-05"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112491450" lat="45.8884922" lon="12.9886830" version="1" timestamp="2018-12-03T08:36:51Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.8"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="29"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/L686/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Farnia"/>
+    <tag k="survey:date" v="2015-08-05"/>
+    <tag k="taxon" v="Quercus robur L."/>
+  </node>
+  <node id="6112491451" lat="45.6820768" lon="13.1339031" version="1" timestamp="2018-12-03T08:36:51Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="25"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/E584/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pino d'Aleppo"/>
+    <tag k="survey:date" v="2015-12-11"/>
+    <tag k="taxon" v="Pinus halepensis Mill."/>
+  </node>
+  <node id="6112491452" lat="45.6910000" lon="13.1409200" version="1" timestamp="2018-12-03T08:36:52Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="10"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/E584/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Roverella"/>
+    <tag k="survey:date" v="2016-11-15"/>
+    <tag k="taxon" v="Quercus pubescens Willd."/>
+  </node>
+  <node id="6112491453" lat="46.1472000" lon="13.5322200" version="1" timestamp="2018-12-03T08:36:52Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.6"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="24"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/H951/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Castagno"/>
+    <tag k="survey:date" v="2015-07-11"/>
+    <tag k="taxon" v="Castanea sativa Mill."/>
+  </node>
+  <node id="6112491455" lat="45.9583000" lon="12.6163000" version="1" timestamp="2018-12-03T08:36:52Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.45"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="15"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="003/G886/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Magnolia"/>
+    <tag k="survey:date" v="2016-10-15"/>
+    <tag k="taxon" v="Magnolia grandiflora L."/>
+  </node>
+  <node id="6112491456" lat="46.1681000" lon="13.4643200" version="1" timestamp="2018-12-03T08:36:52Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.2"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="24"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/H089/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Castagno"/>
+    <tag k="taxon" v="Castanea sativa Mill."/>
+  </node>
+  <node id="6112491458" lat="45.9409000" lon="13.6232000" version="1" timestamp="2018-12-03T08:36:52Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="30"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/E098/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Platano comune"/>
+    <tag k="survey:date" v="2015-10-08"/>
+    <tag k="taxon" v="Platanus acerifolia (Aiton) Willd."/>
+  </node>
+  <node id="6112491459" lat="45.9445000" lon="13.6280800" version="1" timestamp="2018-12-03T08:36:52Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.55"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="30"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/E098/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Platano comune"/>
+    <tag k="survey:date" v="2015-08-08"/>
+    <tag k="taxon" v="Platanus acerifolia (Aiton) Willd."/>
+  </node>
+  <node id="6112491460" lat="45.9380000" lon="13.6266200" version="1" timestamp="2018-12-03T08:36:52Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.8"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="8"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="004/E098/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Gelso bianco"/>
+    <tag k="survey:date" v="2015-08-08"/>
+    <tag k="taxon" v="Morus alba L."/>
+  </node>
+  <node id="6112491461" lat="45.9453000" lon="13.6205800" version="1" timestamp="2018-12-03T08:36:53Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.72"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="18"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="005/E098/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Magnolia"/>
+    <tag k="survey:date" v="2015-08-08"/>
+    <tag k="taxon" v="Magnolia grandiflora L."/>
+  </node>
+  <node id="6112491462" lat="45.9503000" lon="13.6263400" version="1" timestamp="2018-12-03T08:36:53Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.7"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="8"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="007/E098/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Gelso bianco"/>
+    <tag k="survey:date" v="2015-08-08"/>
+    <tag k="taxon" v="Morus alba L."/>
+  </node>
+  <node id="6112491466" lat="45.9809142" lon="13.4991583" version="1" timestamp="2018-12-03T08:36:53Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.33"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="18"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/D014/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Roverella"/>
+    <tag k="survey:date" v="2015-08-08"/>
+    <tag k="taxon" v="Quercus pubescens Willd."/>
+  </node>
+  <node id="6112491467" lat="45.7049000" lon="13.7131600" version="1" timestamp="2018-12-03T08:36:53Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.04"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="10"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Corbezzolo"/>
+    <tag k="survey:date" v="2015-07-27"/>
+    <tag k="taxon" v="Arbutus unedo L."/>
+  </node>
+  <node id="6112491478" lat="45.9409000" lon="13.5420500" version="1" timestamp="2018-12-03T08:36:54Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="16"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/F767/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Farnia"/>
+    <tag k="survey:date" v="2015-07-15"/>
+    <tag k="taxon" v="Quercus robur L."/>
+  </node>
+  <node id="6112492089" lat="45.8052508" lon="13.5002178" version="1" timestamp="2018-12-03T08:36:55Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.36"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="16"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/I939/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Bagolaro"/>
+    <tag k="survey:date" v="2015-07-29"/>
+    <tag k="taxon" v="Celtis australis L."/>
+  </node>
+  <node id="6112492097" lat="45.8850382" lon="13.4940058" version="1" timestamp="2018-12-03T08:36:55Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.65"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="16"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/E124/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Magnolia"/>
+    <tag k="survey:date" v="2015-07-15"/>
+    <tag k="taxon" v="Magnolia grandiflora L."/>
+  </node>
+  <node id="6112492104" lat="45.8888395" lon="13.4994185" version="1" timestamp="2018-12-03T08:36:56Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.25"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="19"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="002/E124/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pino d'Aleppo"/>
+    <tag k="survey:date" v="2015-07-15"/>
+    <tag k="taxon" v="Pinus halepensis Mill."/>
+  </node>
+  <node id="6112492110" lat="46.1937000" lon="13.5310600" version="1" timestamp="2018-12-03T08:36:56Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.2"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="29"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/I478/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Faggio"/>
+    <tag k="survey:date" v="2015-07-21"/>
+    <tag k="taxon" v="Fagus sylvatica L."/>
+  </node>
+  <node id="6112492115" lat="46.0630000" lon="13.2395400" version="1" timestamp="2018-12-03T08:36:57Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.27"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="22"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="006/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-09-27"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112492116" lat="46.0627000" lon="13.2397600" version="1" timestamp="2018-12-03T08:36:57Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.73"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="24"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="008/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Atlante"/>
+    <tag k="survey:date" v="2016-09-27"/>
+    <tag k="taxon" v="Cedrus atlantica (Endl.) Manetti ex Carri re"/>
+  </node>
+  <node id="6112492117" lat="46.0628000" lon="13.2394600" version="1" timestamp="2018-12-03T08:36:57Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.3"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="28"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="007/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Farnia"/>
+    <tag k="survey:date" v="2016-09-27"/>
+    <tag k="taxon" v="Quercus robur L."/>
+  </node>
+  <node id="6112492118" lat="46.1232000" lon="13.1597700" version="1" timestamp="2018-12-03T08:36:57Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.1"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="27"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/F760/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Ginco"/>
+    <tag k="survey:date" v="2016-10-14"/>
+    <tag k="taxon" v="Ginkgo biloba L."/>
+  </node>
+  <node id="6112492119" lat="45.8867895" lon="13.5816979" version="1" timestamp="2018-12-03T08:36:57Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="1.2"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="14"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="002/I479/GO/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Glicine"/>
+    <tag k="survey:date" v="2015-07-21"/>
+    <tag k="taxon" v="Wisteria sinensis (Sims) Sweet"/>
+  </node>
+  <node id="6112492120" lat="46.1234000" lon="13.1597900" version="1" timestamp="2018-12-03T08:36:58Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="25"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/F760/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Noce nero"/>
+    <tag k="survey:date" v="2016-10-14"/>
+    <tag k="taxon" v="Juglans nigra L."/>
+  </node>
+  <node id="6112492121" lat="46.1228000" lon="13.1592500" version="1" timestamp="2018-12-03T08:36:58Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.7"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="26"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/F760/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Ippocastano"/>
+    <tag k="survey:date" v="2016-10-14"/>
+    <tag k="taxon" v="Aesculus hippocastanum L."/>
+  </node>
+  <node id="6112492122" lat="46.2145000" lon="13.2250400" version="1" timestamp="2018-12-03T08:36:58Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="24"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/L050/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pioppo nero"/>
+    <tag k="survey:date" v="2016-12-10"/>
+    <tag k="taxon" v="Populus nigra L."/>
+  </node>
+  <node id="6112492123" lat="45.6872017" lon="13.7867743" version="2" timestamp="2019-10-15T09:54:04Z" changeset="75710125" uid="2912569" user="Lucicoss">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="015/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Sofora del Giappone"/>
+    <tag k="species:wikidata" v="Q55741495"/>
+    <tag k="survey:date" v="2016-12-11"/>
+    <tag k="taxon" v="Styphnolobium japonicum (L.) Schott"/>
+  </node>
+  <node id="6112492124" lat="46.4391000" lon="12.8321000" version="1" timestamp="2018-12-03T08:36:58Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.45"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="17"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/D408/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Faggio"/>
+    <tag k="survey:date" v="2015-07-23"/>
+    <tag k="taxon" v="Fagus sylvatica L."/>
+  </node>
+  <node id="6112492125" lat="46.4484000" lon="12.8268900" version="1" timestamp="2018-12-03T08:36:58Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.54"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="15"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/H200/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pero selvatico"/>
+    <tag k="survey:date" v="2015-07-23"/>
+    <tag k="taxon" v="Pyrus pyraster (L.) Burgsd."/>
+  </node>
+  <node id="6112492126" lat="45.7709656" lon="13.6244309" version="1" timestamp="2018-12-03T08:36:58Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="0.92"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="7"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/D383/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Terebinto"/>
+    <tag k="taxon" v="Pistacia terebinthus L."/>
+  </node>
+  <node id="6112492127" lat="45.7714000" lon="13.6296400" version="1" timestamp="2018-12-03T08:36:59Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.2"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="28"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/D383/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cipresso di Monterey"/>
+    <tag k="survey:date" v="2015-07-29"/>
+    <tag k="taxon" v="Cupressus macrocarpa Hartw."/>
+  </node>
+  <node id="6112492128" lat="46.1729000" lon="12.7009900" version="1" timestamp="2018-12-03T08:36:59Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.45"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="35"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/E889/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Faggio"/>
+    <tag k="survey:date" v="2015-07-16"/>
+    <tag k="taxon" v="Fagus sylvatica L."/>
+  </node>
+  <node id="6112492129" lat="46.1690653" lon="12.7064395" version="1" timestamp="2018-12-03T08:36:59Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.35"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="22"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/E889/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Tuia gigante"/>
+    <tag k="survey:date" v="2015-07-16"/>
+    <tag k="taxon" v="Thuja plicata Donn ex D.Don"/>
+  </node>
+  <node id="6112492130" lat="46.1305000" lon="12.5267500" version="1" timestamp="2018-12-03T08:36:59Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.7"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="18"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/A516/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Faggio"/>
+    <tag k="survey:date" v="2015-06-17"/>
+    <tag k="taxon" v="Fagus sylvatica L."/>
+  </node>
+  <node id="6112492131" lat="46.2484000" lon="12.5549500" version="1" timestamp="2018-12-03T08:36:59Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.86"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="22"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/C790/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete rosso"/>
+    <tag k="survey:date" v="2015-08-14"/>
+    <tag k="taxon" v="Picea abies (L.) H. Karst."/>
+  </node>
+  <node id="6112492132" lat="46.2482000" lon="12.5556700" version="1" timestamp="2018-12-03T08:36:59Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.52"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="23"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/C790/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete rosso"/>
+    <tag k="survey:date" v="2015-08-14"/>
+    <tag k="taxon" v="Picea abies (L.) H. Karst."/>
+  </node>
+  <node id="6112492133" lat="46.3320187" lon="12.6273828" version="1" timestamp="2018-12-03T08:36:59Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.02"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="33"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/C790/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete rosso"/>
+    <tag k="survey:date" v="2015-08-24"/>
+    <tag k="taxon" v="Picea abies (L.) H. Karst."/>
+  </node>
+  <node id="6112492134" lat="46.4376000" lon="13.5855000" version="1" timestamp="2018-12-03T08:37:00Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.95"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="32"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="010/L057/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete bianco"/>
+    <tag k="survey:date" v="2016-10-09"/>
+    <tag k="taxon" v="Abies alba Mill."/>
+  </node>
+  <node id="6112492136" lat="45.7050000" lon="13.7152800" version="1" timestamp="2018-12-03T08:37:00Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.1"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="18"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cipresso comune"/>
+    <tag k="survey:date" v="2015-07-27"/>
+    <tag k="taxon" v="Cupressus sempervirens L."/>
+  </node>
+  <node id="6112492137" lat="45.7057000" lon="13.8035500" version="1" timestamp="2018-12-03T08:37:00Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.1"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="35"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="004/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cerro"/>
+    <tag k="survey:date" v="2015-07-28"/>
+    <tag k="taxon" v="Quercus cerris L."/>
+  </node>
+  <node id="6112492138" lat="45.6441000" lon="13.8152600" version="1" timestamp="2018-12-03T08:37:00Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.6"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="23"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="005/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pino d'Aleppo"/>
+    <tag k="survey:date" v="2015-07-28"/>
+    <tag k="taxon" v="Pinus halepensis Mill."/>
+  </node>
+  <node id="6112492139" lat="45.7035000" lon="13.7164100" version="1" timestamp="2018-12-03T08:37:00Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="20"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="006/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Pino grigio"/>
+    <tag k="survey:date" v="2015-07-27"/>
+    <tag k="taxon" v="Pinus sabiniana Dougl."/>
+  </node>
+  <node id="6112492140" lat="46.0767000" lon="12.5699900" version="1" timestamp="2018-12-03T08:37:01Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="6.79"/>
+    <tag k="denotation" v="landmark"/>
+    <tag k="height" v="13"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="002/A516/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Acero campestre"/>
+    <tag k="survey:date" v="2015-06-17"/>
+    <tag k="taxon" v="Acer campestre L."/>
+  </node>
+  <node id="6112492141" lat="45.6539332" lon="13.7841779" version="1" timestamp="2018-12-03T08:37:01Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.2"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="28"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="007/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Platano comune"/>
+    <tag k="survey:date" v="2015-07-27"/>
+    <tag k="taxon" v="Platanus acerifolia (Aiton) Willd."/>
+  </node>
+  <node id="6112492142" lat="45.6540356" lon="13.7843807" version="2" timestamp="2019-11-11T00:27:42Z" changeset="76882722" uid="97922" user="damjang">
+    <tag k="circumference" v="5.25"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="31"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="008/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Platano comune"/>
+    <tag k="survey:date" v="2015-07-27"/>
+    <tag k="taxon" v="Platanus acerifolia (Aiton) Willd."/>
+  </node>
+  <node id="6112492143" lat="45.6530000" lon="13.8052200" version="1" timestamp="2018-12-03T08:37:01Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.2"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="15"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="010/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Roverella"/>
+    <tag k="survey:date" v="2015-07-23"/>
+    <tag k="taxon" v="Quercus pubescens Willd."/>
+  </node>
+  <node id="6112492145" lat="45.6370000" lon="13.8018500" version="1" timestamp="2018-12-03T08:37:01Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.43"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="20"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="012/L424/TS/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Olmo del Caucaso"/>
+    <tag k="survey:date" v="2015-07-29"/>
+    <tag k="taxon" v="Zelkova carpinifolia (Pall.) K. Koch"/>
+  </node>
+  <node id="6112492146" lat="46.3320676" lon="12.6277858" version="1" timestamp="2018-12-03T08:37:01Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.42"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="27"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="004/C790/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete rosso"/>
+    <tag k="survey:date" v="2015-08-14"/>
+    <tag k="taxon" v="Picea abies (L.) H. Karst."/>
+  </node>
+  <node id="6112492147" lat="46.1730000" lon="13.4595400" version="1" timestamp="2018-12-03T08:37:02Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="7.83"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="25"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/H089/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Castagno"/>
+    <tag k="survey:date" v="2016-10-01"/>
+    <tag k="taxon" v="Castanea sativa Mill."/>
+  </node>
+  <node id="6112492148" lat="45.9673000" lon="12.4309400" version="1" timestamp="2018-12-03T08:37:02Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="28"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="001/B598/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Bagolaro"/>
+    <tag k="survey:date" v="2015-07-29"/>
+    <tag k="taxon" v="Celtis australis L."/>
+  </node>
+  <node id="6112492149" lat="46.0637288" lon="13.2389948" version="1" timestamp="2018-12-03T08:37:02Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.155"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="15"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="012/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Gelso bianco"/>
+    <tag k="survey:date" v="2016-09-26"/>
+    <tag k="taxon" v="Morus alba L."/>
+  </node>
+  <node id="6112492150" lat="46.0637000" lon="13.2392500" version="1" timestamp="2018-12-03T08:37:02Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="6.94"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="22"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="013/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Libocedro"/>
+    <tag k="survey:date" v="2016-09-26"/>
+    <tag k="taxon" v="Calocedrus decurrens (Torr.) Florin"/>
+  </node>
+  <node id="6112492151" lat="46.0642000" lon="13.2365100" version="1" timestamp="2018-12-03T08:37:02Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="5.22"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="31"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="001/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112492152" lat="46.0640000" lon="13.2359300" version="1" timestamp="2018-12-03T08:37:02Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.48"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="27"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="002/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112492153" lat="46.0644000" lon="13.2367600" version="1" timestamp="2018-12-03T08:37:02Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.01"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="27"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="003/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112492154" lat="46.0633000" lon="13.2281600" version="1" timestamp="2018-12-03T08:37:03Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="6.17"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="34"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="017/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112492155" lat="46.0639000" lon="13.2277700" version="1" timestamp="2018-12-03T08:37:03Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.3"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="32"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="018/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Cedro dell'Himalaya"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Cedrus deodara (D.Don) G.Don"/>
+  </node>
+  <node id="6112492156" lat="46.0646000" lon="13.2372200" version="1" timestamp="2018-12-03T08:37:03Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="4.54"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="23"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="022/L483/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Bagolaro"/>
+    <tag k="survey:date" v="2016-09-19"/>
+    <tag k="taxon" v="Celtis australis L."/>
+  </node>
+  <node id="6112492157" lat="45.9685000" lon="12.4480100" version="1" timestamp="2018-12-03T08:37:03Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.82"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="19"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:mipaaf" v="002/B598/PN/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Tiglio selvatico"/>
+    <tag k="survey:date" v="2015-07-29"/>
+    <tag k="taxon" v="Tilia cordata Mill."/>
+  </node>
+  <node id="6112492158" lat="45.9506000" lon="13.0117800" version="1" timestamp="2018-12-03T08:37:03Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="2.5"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="57"/>
+    <tag k="height:source" v="estimated"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="006/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Ginco"/>
+    <tag k="survey:date" v="2016-02-08"/>
+    <tag k="taxon" v="Ginkgo biloba L."/>
+  </node>
+  <node id="6112492159" lat="45.9503000" lon="13.0089100" version="1" timestamp="2018-12-03T08:37:03Z" changeset="65116794" uid="8727120" user="attilaimport">
+    <tag k="circumference" v="3.95"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="32"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="ref:mipaaf" v="005/C817/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species:it" v="Abete del Caucaso"/>
+    <tag k="survey:date" v="2016-02-08"/>
+    <tag k="taxon" v="Abies nordmanniana (Steven) Spach"/>
+  </node>
+  <node id="7253125199" lat="46.1022681" lon="13.4428579" version="1" timestamp="2020-02-29T17:10:15Z" changeset="81625099" uid="361003" user="Cascafico">
+    <tag k="access" v="private"/>
+    <tag k="circumference" v="68"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="ele" v="140"/>
+    <tag k="height" v="2.5"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="no"/>
+    <tag k="ref:mipaaf" v="006/C758/UD/06"/>
+    <tag k="source" v="Regione FVG"/>
+    <tag k="species" v="Vitis vinifera L."/>
+    <tag k="species:it" v="Vite"/>
+    <tag k="survey:date" v="2015-07-22"/>
+    <tag k="taxon" v="Vitis vinifera L."/>
+  </node>
+
+</osm>

@@ -1,0 +1,17 @@
+{
+   "id"  : {{(cells["id"].value)}},
+   "lat" : {{(cells["LATITUDINE"].value)}},
+   "lon" : {{(cells["LONGITUDIN"].value)}},
+      "tags" : {
+      "ref:mipaaf" : {{jsonize(cells["ID PUNTO"].value)}},
+      "ele" : {{jsonize(cells["QUOTA"].value)}},
+      "height" : {{jsonize(cells["AL IS - H"].value)}},
+      "circumference" : {{jsonize(cells["AL IS - C"].value)}},
+      "note" : {{jsonize(cells["note"].value)}},
+      "natural_monument:criteria" : {{jsonize(cells["natural_monument:criteria"].value)}},
+      "taxon" : {{jsonize(cells["SPECIE"].value)}},
+      "species:it" : {{jsonize(cells["NOME VOLG"].value)}},
+      "natural" : "tree",
+      "denotation" : "natural_monument"
+               }
+}

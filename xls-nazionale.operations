@@ -1,0 +1,2138 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LATITUDINE using expression grel:round(value*1000000)/1000000.0",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUDINE",
+    "expression": "grel:round(value*1000000)/1000000.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LONGITUDIN using expression grel:round(value*1000000)/1000000.0",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUDIN",
+    "expression": "grel:round(value*1000000)/1000000.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "STATO",
+          "expression": "value",
+          "columnName": "STATO",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Iscritto in elenco",
+                "l": "Iscritto in elenco"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred.toString()",
+          "columnName": "",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column STATO",
+    "columnName": "STATO"
+  },
+  {
+    "op": "core/row-star",
+    "description": "Unstar rows",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOLOGIA",
+          "expression": "value",
+          "columnName": "TIPOLOGIA",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "albero singolo",
+                "l": "albero singolo"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column note at index 2 based on column TIPOLOGIA using expression grel:\"tree row or cluster: may need line or polygon\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred.toString()",
+          "columnName": "",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "note",
+    "columnInsertIndex": 2,
+    "baseColumnName": "TIPOLOGIA",
+    "expression": "grel:\"tree row or cluster: may need line or polygon\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/row-star",
+    "description": "Unstar rows",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column leaf_cycle at index 11 based on column GENERE using expression grel:cell.cross(\"tree_leaf\", \"genus\")[0].cells[\"leaf_cycle\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "leaf_cycle",
+    "columnInsertIndex": 11,
+    "baseColumnName": "GENERE",
+    "expression": "grel:cell.cross(\"tree_leaf\", \"genus\")[0].cells[\"leaf_cycle\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column leaf_type at index 11 based on column GENERE using expression grel:cell.cross(\"tree_leaf\", \"genus\")[0].cells[\"leaf_type\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "leaf_type",
+    "columnInsertIndex": 11,
+    "baseColumnName": "GENERE",
+    "expression": "grel:cell.cross(\"tree_leaf\", \"genus\")[0].cells[\"leaf_type\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus pubescens Willd.",
+                "l": "Quercus pubescens Willd."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus ilex L.",
+                "l": "Quercus ilex L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "evergreen"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus suber L.",
+                "l": "Quercus suber L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "evergreen"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Larix decidua Mill.",
+                "l": "Larix decidua Mill."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus cerris L.",
+                "l": "Quercus cerris L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus robur L.",
+                "l": "Quercus robur L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer pseudoplatanus L.",
+                "l": "Acer pseudoplatanus L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Magnolia grandiflora L.",
+                "l": "Magnolia grandiflora L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "evergreen"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus petraea subsp. austrotyrrhenica Brullo, R.Guarino & Siracusa",
+                "l": "Quercus petraea subsp. austrotyrrhenica Brullo, R.Guarino & Siracusa"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Fraxinus excelsior L.",
+                "l": "Fraxinus excelsior L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pyrus pyraster (L.) Burgsd.",
+                "l": "Pyrus pyraster (L.) Burgsd."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus crenata Lam.",
+                "l": "Quercus crenata Lam."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "semi-deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer monspessulanum L.",
+                "l": "Acer monspessulanum L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer campestre L.",
+                "l": "Acer campestre L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cinnamomum camphora T.Nees et Eberm",
+                "l": "Cinnamomum camphora T.Nees et Eberm"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "evergreen"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Eucalyptus globulus Labill.",
+                "l": "Eucalyptus globulus Labill."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "evergreen"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pistacia lentiscus L.",
+                "l": "Pistacia lentiscus L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "evergreen"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Prunus avium L.",
+                "l": "Prunus avium L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pyrus communis L.",
+                "l": "Pyrus communis L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Eucalyptus camaldulensis Dehnh.",
+                "l": "Eucalyptus camaldulensis Dehnh."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "evergreen"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Fraxinus angustifolia Vahl subsp. angustifolia",
+                "l": "Fraxinus angustifolia Vahl subsp. angustifolia"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pistacia terebinthus L.",
+                "l": "Pistacia terebinthus L."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Prunus dulcis (Mill.) D.A. Webb",
+                "l": "Prunus dulcis (Mill.) D.A. Webb"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer opalus Mill.",
+                "l": "Acer opalus Mill."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Fraxinus angustifolia Vahl subsp. oxycarpa (Willd.) Franco & Rocha Afonso",
+                "l": "Fraxinus angustifolia Vahl subsp. oxycarpa (Willd.) Franco & Rocha Afonso"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus cerris L. x Quercus pubescens Willd.",
+                "l": "Quercus cerris L. x Quercus pubescens Willd."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus frainetto Ten.",
+                "l": "Quercus frainetto Ten."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "deciduous"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus trojana Webb",
+                "l": "Quercus trojana Webb"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "semi-evergreen"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column leaf_cycle",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "leaf_cycle",
+          "expression": "value",
+          "columnName": "leaf_cycle",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "deciduous and evergreen",
+                "l": "deciduous and evergreen"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "SPECIE",
+          "expression": "value",
+          "columnName": "SPECIE",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus ithaburensis subsp. macrolepis (Kotschy) Hedge & Yalt.",
+                "l": "Quercus ithaburensis subsp. macrolepis (Kotschy) Hedge & Yalt."
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "leaf_cycle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "deciduous and evergreen"
+        ],
+        "to": "semi-evergreen"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CR ETA' to CR ETA",
+    "oldColumnName": "CR ETA'",
+    "newColumnName": "CR ETA"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AL IS - C using expression grel:value/100.0",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AL IS - C",
+    "expression": "grel:value/100.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column natural_monument:criteria at index 27 based on column CR STORICO using expression grel:if (cells[\"CR ETA\"].value==\"SI\",\"age\",\"\")+\nif (cells[\"CR CIRCONF\"].value==\"SI\",\";circumference\",\"\")+\nif (cells[\"CR ALTEZZA\"].value==\"SI\",\";height\",\"\")+\nif (cells[\"CR AMPIEZZ\"].value==\"SI\",\";crown\",\"\")+\nif (cells[\"CR FM O PO\"].value==\"SI\",\";shape\",\"\")+\nif (cells[\"CR VALORE\"].value==\"SI\",\";value\",\"\")+\nif (cells[\"CR RARITA'\"].value==\"SI\",\";rarity\",\"\")+\nif (cells[\"CR ARCHIT\"].value==\"SI\",\";plant_architecture\",\"\")+\nif (cells[\"CR PAESAG\"].value==\"SI\",\";landscape\",\"\")+\nif (cells[\"CR STORICO\"].value==\"SI\",\";historic\",\"\")\necc,",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "natural_monument:criteria",
+    "columnInsertIndex": 27,
+    "baseColumnName": "CR STORICO",
+    "expression": "grel:if (cells[\"CR ETA\"].value==\"SI\",\"age\",\"\")+\nif (cells[\"CR CIRCONF\"].value==\"SI\",\";circumference\",\"\")+\nif (cells[\"CR ALTEZZA\"].value==\"SI\",\";height\",\"\")+\nif (cells[\"CR AMPIEZZ\"].value==\"SI\",\";crown\",\"\")+\nif (cells[\"CR FM O PO\"].value==\"SI\",\";shape\",\"\")+\nif (cells[\"CR VALORE\"].value==\"SI\",\";value\",\"\")+\nif (cells[\"CR RARITA'\"].value==\"SI\",\";rarity\",\"\")+\nif (cells[\"CR ARCHIT\"].value==\"SI\",\";plant_architecture\",\"\")+\nif (cells[\"CR PAESAG\"].value==\"SI\",\";landscape\",\"\")+\nif (cells[\"CR STORICO\"].value==\"SI\",\";historic\",\"\")\necc,",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column natural_monument:criteria using expression grel:value.replace(/^;/, \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "natural_monument:criteria",
+    "expression": "grel:value.replace(/^;/, \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
